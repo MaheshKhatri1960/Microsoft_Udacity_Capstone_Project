@@ -77,6 +77,7 @@ On all the session run days AutoML selected VotingEnsemble as the best model for
 
 ## Hyperparameter Tuning
 
+![Figure  - Overview of main steps of Hyperdrive program train.py ](http://www.kaytek.co.in/images/msudp3/1B09_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Train_Dot_Py.png) 
 
 SLIDE OUTPUT - Main Steps of train.py – Python - Logistic Regression Model – Figure
 
