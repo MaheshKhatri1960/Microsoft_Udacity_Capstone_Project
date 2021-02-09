@@ -50,6 +50,9 @@ The data is accessed from this <a href="https://www.kaggle.com/andrewmvd/heart-f
 
 
 ## Automated ML
+
+SLIDE OUTPUT - AutoML Execution with multiple models & their hyperparameters – Figure 
+
 *TODO*: Give an overview of the `automl` settings and configuration you used for this experiment
 
 One of the powerful AutoML settings configured was for automatic featurization (scaling & normalizing) of the input data. 
