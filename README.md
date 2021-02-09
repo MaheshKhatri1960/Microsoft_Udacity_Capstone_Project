@@ -81,6 +81,10 @@ On all the session run days AutoML selected VotingEnsemble as the best model for
 
 SLIDE OUTPUT - Main Steps of train.py – Python - Logistic Regression Model – Figure
 
+![Figure  - Terminal Execution Of Hyperdrive program train.py ](http://www.kaytek.co.in/images/msudp3/1B09_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Train_Dot_Py_Terminal_Execution.png) 
+
+Terminal Execution of train.py – Figure
+
 ![Figure  - Overview of Hyperdrive Operations ](http://www.kaytek.co.in/images/msudp3/1B09_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Hyperdrive.png) 
 
 Hyperdrive Overview – ‘train.py’ Execution with multiple parameters – Figure 
