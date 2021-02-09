@@ -102,6 +102,9 @@ Hyperdrive Overview – ‘train.py’ Execution with multiple parameters – Fi
 
 Hyperdrive RunWidget Details showing Execution details – Figure 
 
+![Figure  - Hyperdrive Execution RunWidget Details - 2 ](http://www.kaytek.co.in/images/msudp3/1B09_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Hyperdrive_RunDetails_Widget_Execution_2.png) 
+
+Hyperdrive RunWidget Details showing Execution details 2 – Figure 
 
 ## Model Deployment
 *TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
