@@ -41,7 +41,6 @@ The data is accessed from this <a href="https://www.kaggle.com/andrewmvd/heart-f
 
 ## Automated ML
 
-![Figure  - Overview of AutoML Run Operations ](http://www.kaytek.co.in/images/msudp3/1B09_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML.png) 
 
  AutoML Execution with multiple models & their hyperparameters – Figure 
 
