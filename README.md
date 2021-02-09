@@ -77,9 +77,12 @@ On all the session run days AutoML selected VotingEnsemble as the best model for
 
 ## Hyperparameter Tuning
 
+
 SLIDE OUTPUT - Main Steps of train.py – Python - Logistic Regression Model – Figure
 
-SLIDE OUTPUT - Hyperdrive Overview – ‘train.py’ Execution with multiple parameters – Figure 
+![Figure  - Overview of Hyperdrive Operations ](http://www.kaytek.co.in/images/msudp3/1B09_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Hyperdrive.png) 
+
+Hyperdrive Overview – ‘train.py’ Execution with multiple parameters – Figure 
 
 *TODO*: What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
 
