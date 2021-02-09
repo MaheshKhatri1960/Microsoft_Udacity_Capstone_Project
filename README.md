@@ -52,15 +52,37 @@ The data is accessed from this <a href="https://www.kaggle.com/andrewmvd/heart-f
 ## Automated ML
 *TODO*: Give an overview of the `automl` settings and configuration you used for this experiment
 
+One of the powerful AutoML settings configured was for automatic featurization (scaling & normalizing) of the input data. 
 
+automl_settings = {
+    "enable_early_stopping" : True,
+    "featurization": 'auto',
+    "verbosity": logging.INFO,
+}
+
+automl_config = AutoMLConfig(
+    compute_target=compute_target,
+    experiment_timeout_minutes=20,
+    task="classification",
+    primary_metric="accuracy",
+    training_data=train_data_2_ds,
+    label_column_name="DEATH_EVENT",
+    enable_onnx_compatible_models=True,
+    n_cross_validations=5,
+    debug_log = "automl_errors.log",
+    **automl_settings
+)
 
 ### Results
 *TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
+
+On all the session run days AutoML selected VotingEnsemble as the best model for the primary metric - 'Accuracy'. The VotingEnsemble model makes a prediction based on an ensemble or combination of other models. Hence, it will always perform better as compared to the prediction of a single model such as Logistic Regression. 
 
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
 
 ## Hyperparameter Tuning
 *TODO*: What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
+
 
 
 ### Results
