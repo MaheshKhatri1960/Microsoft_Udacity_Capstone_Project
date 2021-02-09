@@ -28,18 +28,8 @@ The dataset was obtained from the Kaggle link shown below.
 *TODO*: Explain the task you are going to be solving with this dataset and the features you will be using for it.
 
 The dataset below is available as a Microsoft Excel csv file and has the following columns over 299 rows : 
-age
-anaemia	creatinine_phosphokinase
-diabetes
-ejection_fraction
-high_blood_pressure
-platelets
-serum_creatinine
-serum_sodium
-sex
-smoking
-time
-DEATH_EVENT
+
+![Figure  - Kaggle Heart Failure Prediction Dataset Columns ](http://www.kaytek.co.in/images/msudp3/1B09_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Dataset_Full.png) 
 
 The task is to create a model for predicting mortality (indicated as value of DEATH_EVENT = 1 in the above dataset) caused by Heart Failure.
 
