@@ -87,6 +87,11 @@ End Of AutoML Execution
 
 AutoML Run Completed - Best Model 
 
+![Figure  - AutoML Run Completed - Best Model - Details - 1](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Run_Best_Model_Details_1.png) 
+
+AutoML Run - Best Model - Details 1  
+
+
 ## Hyperparameter Tuning
 
 ![Figure  - Overview of main steps of Hyperdrive program train.py ](http://www.kaytek.co.in/images/msudp3/1B09_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Train_Dot_Py.png) 
