@@ -119,6 +119,10 @@ Hyperdrive RunWidget Details showing Execution details in progress 2 – Figure
 
 Hyperdrive RunWidget Details showing Execution completed – Figure 
 
+![Figure  - Hyperdrive Run Completed - Best Model ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Hyperdrive_Run_Best_Model.png) 
+
+Hyperdrive Run Completed - Best Model – Figure 
+
 ## Model Deployment
 *TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
 
