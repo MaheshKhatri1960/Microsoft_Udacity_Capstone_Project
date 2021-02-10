@@ -83,6 +83,9 @@ Start Of AutoML Execution
 
 End Of AutoML Execution 
 
+![Figure  - AutoML Run Completed - Best Model ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Run_Completed_Best_Model.png) 
+
+AutoML Run Completed - Best Model 
 
 ## Hyperparameter Tuning
 
