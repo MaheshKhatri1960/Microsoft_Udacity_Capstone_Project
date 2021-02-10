@@ -146,6 +146,9 @@ Hyperdrive Run Completed - Best Model – Figure
 
 2 - <b> Dataset Cleaning </b> - Minimal data cleaning operations were done for this project. Some researchers have suggested that perhaps the 'time' column should not be used as a feature for prediction because it reflects the patient's followup period with the doctor and hence has no apparent impact on the accuracy of the prediction. However, the model is considering 'time' as an important feature in the best AutoML run model explanation as shown in the diagram below.
 
+![Figure  - AutoML Run Completed - Best Model - Explanation](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Run_Best_Model_Explanation.png) 
+
+AutoML Run - Best Model - Explanation 
 
 ## Screen Recording
 *TODO* Provide a <a href="https://youtu.be/LekDuPgowe0">link</a> to a screen recording of the project in action. Remember that the screencast should demonstrate:
