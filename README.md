@@ -77,12 +77,18 @@ On all the session run days AutoML selected VotingEnsemble as the best model for
 
 ![Figure  - AutoML Execution RunWidget Details ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_RunDetails_Widget_Execution_1.png) 
 
+Start Of AutoML Execution 
+
+![Figure  - AutoML RunWidget Details - Execution Completed](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_RunDetails_Widget_Execution_Completed.png) 
+
+End Of AutoML Execution 
+
 
 ## Hyperparameter Tuning
 
 ![Figure  - Overview of main steps of Hyperdrive program train.py ](http://www.kaytek.co.in/images/msudp3/1B09_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Train_Dot_Py.png) 
 
-SLIDE OUTPUT - Main Steps of train.py – Python - Logistic Regression Model – Figure
+Main Steps of train.py – Python - Logistic Regression Model – Figure
 
 ![Figure  - Terminal Execution Of Hyperdrive program train.py ](http://www.kaytek.co.in/images/msudp3/1B09_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Train_Dot_Py_Terminal_Execution.png) 
 
