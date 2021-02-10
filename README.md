@@ -47,7 +47,7 @@ The data is accessed from this <a href="https://www.kaggle.com/andrewmvd/heart-f
 
 *TODO*: Give an overview of the `automl` settings and configuration you used for this experiment
 
-One of the powerful AutoML settings configured was for automatic featurization (scaling & normalizing) of the input data. 
+One of the powerful AutoML settings configured was for automatic featurization (scaling & normalizing) of the input data. This enables automatic analysis of the input data via AutoML Run Data Guardrails which does three types of annalysis (Class balancing detection, Missing feature value imputation & High cardinality feature detection) as seen in the screenshots below. 
 
 automl_settings = {
     "enable_early_stopping" : True,
