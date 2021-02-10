@@ -153,6 +153,10 @@ AutoML Run - Best Model - Deployment 1
 
 AutoML Run - Best Model - Deployment 2
 
+![Figure  - AutoML Run - Model Deployment - 3 ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Deployed_Model_3.png) 
+
+AutoML Run - Best Model - Deployment 2
+
 
 ## Project Improvement Suggestions
 *TODO*: How to improve the project in the future
