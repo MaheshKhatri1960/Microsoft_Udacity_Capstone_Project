@@ -150,7 +150,7 @@ Hyperdrive Run Completed - Best Model – Figure
 
 AutoML Run - Best Model - Explanation 
 
-As can be seen, 'time's is being shown as the most important predictor feature. 
+As can be seen, 'time's is being shown as the most important predictor feature followed by 'serum_creatinine' & 'ejection fraction'. As has been mentioned in the dataset section above, the dataset creators believe that <b>"Machine learning can predict survival of patients with heart failure from serum creatinine and ejection fraction alone"</b>. With the exception of 'time', our AutoML run best model explanations seem to confirm the researcher's findings too in terms of the importance of 'serum_creatinine' & 'ejection fraction'. Hence, it is crucial to remove 'time' from the features sent to to the model and see the impact on both the accuracy metric as well as the relative importance of 'serum_creatinine' & 'ejection fraction'. 
 
 ## Screen Recording
 *TODO* Provide a <a href="https://youtu.be/LekDuPgowe0">link</a> to a screen recording of the project in action. Remember that the screencast should demonstrate:
