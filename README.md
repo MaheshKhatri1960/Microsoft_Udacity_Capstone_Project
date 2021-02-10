@@ -144,6 +144,7 @@ Hyperdrive Run Completed - Best Model – Figure
 
 1 - <b>Further Research Of Random Forest</b> - Over the last few days, I had conducted multiple runs of both Hyperdrive & AutoML for this project. While AutoML was consistently selecting 'VotingEnsemble' as the best algorithm with roughly the same accuracy performance, in the case of Hyperdrive, in case SKlearn's RandomForestClassifier is the algorithm used, it is possible to get better accuracy results. I did try out some runs of the same but due to paucity of time for the project submission, plan to do so in the future. As per the dataset authors, Random Forest algorithms can give better predictions. It also needs to be studied further as to how to improve the performance of the results of the various AutoML's RandomForest algorithms used in the AutoML run.
 
+2 - <b> Dataset Cleaning </b> - Minimal data cleaning operations were done for this project. Some researchers have suggested that perhaps the 'time' column should not be used as a feature for prediction because it has no apparent impact on the accuracy of the prediction. However, the model is considering 'time' as an important feature in the model explanation as shown in the diagram below.
 
 
 ## Screen Recording
