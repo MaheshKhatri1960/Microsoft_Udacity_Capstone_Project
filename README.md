@@ -142,7 +142,7 @@ Hyperdrive Run Completed - Best Model – Figure
 ## Project Improvement Suggestions
 *TODO*: How to improve the project in the future
 
-1 - In Depth Usage Of Random Forest - Over the last few days, I had conducted multiple runs of both Hyperdrive & AutoML for this project. While AutoML was consistently selecting 'VotingEnsemble' as the best algorithm with roughly the same accuracy performance, in the case of Hyperdrive, in case SKlearn's RandomForestClassifier is the algorithm used, it is possible to get better accuracy results. I did try out some runs of the same but due to paucity of time for the project submission, plan to do so in the future. As per the dataset authors, Random Forest algorithms can give better predictions. It also needs to be studied further as to how to improve the performance of the results of the various AutoML's RandomForest algorithms used in the AutoML run.
+1 - <b>Further Research Of Random Forest</b> - Over the last few days, I had conducted multiple runs of both Hyperdrive & AutoML for this project. While AutoML was consistently selecting 'VotingEnsemble' as the best algorithm with roughly the same accuracy performance, in the case of Hyperdrive, in case SKlearn's RandomForestClassifier is the algorithm used, it is possible to get better accuracy results. I did try out some runs of the same but due to paucity of time for the project submission, plan to do so in the future. As per the dataset authors, Random Forest algorithms can give better predictions. It also needs to be studied further as to how to improve the performance of the results of the various AutoML's RandomForest algorithms used in the AutoML run.
 
 
 
