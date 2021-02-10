@@ -162,3 +162,9 @@ As can be seen, 'time's is being shown as the most important predictor feature f
 
 ## Standout Suggestions
 *TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+
+1 - <b>Application Insights Emabled</b> - As can be seen from the screenshot below, for the deployed model, application insights can be enabled.
+
+![Figure  - AutoML Run Completed - Best Model - Deployment App Insights Enabled - ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Hyperdrive_Run_Best_Model_Deployment_Enabled_App_Insights.png) 
+
+
