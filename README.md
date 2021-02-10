@@ -145,6 +145,8 @@ Hyperdrive Run Completed - Best Model – Figure
 ## Model Deployment
 *TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
 
+As can be seen from the details above, the best AutoML Run algoritm 'VotingEnsemble' gave an accuracy of 0.87 which was higher than the Hyperdrive run accuracy of 0.83. Hence, the AutoML run best model was chosen for deployment as can be seen below.  
+
 ![Figure  - AutoML Run - Model Deployment - 1 ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Deployed_Model_1.png) 
 
 AutoML Run - Best Model - Deployment 1
@@ -155,7 +157,7 @@ AutoML Run - Best Model - Deployment 2
 
 ![Figure  - AutoML Run - Model Deployment - 3 ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Deployed_Model_3.png) 
 
-AutoML Run - Best Model - Deployment 2
+AutoML Run - Best Model - Deployment 3
 
 
 ## Project Improvement Suggestions
