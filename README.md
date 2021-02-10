@@ -149,6 +149,10 @@ Hyperdrive Run Completed - Best Model – Figure
 
 AutoML Run - Best Model - Deployment 1
 
+![Figure  - AutoML Run - Model Deployment - 2 ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Deployed_Model_2.png) 
+
+AutoML Run - Best Model - Deployment 2
+
 
 ## Project Improvement Suggestions
 *TODO*: How to improve the project in the future
