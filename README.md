@@ -145,6 +145,11 @@ Hyperdrive Run Completed - Best Model – Figure
 ## Model Deployment
 *TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
 
+![Figure  - AutoML Run - Model Deployment - 1 ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Deployed_Model_1.png) 
+
+AutoML Run - Best Model - Deployment 1
+
+
 ## Project Improvement Suggestions
 *TODO*: How to improve the project in the future
 
