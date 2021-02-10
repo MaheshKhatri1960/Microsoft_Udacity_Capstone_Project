@@ -150,6 +150,8 @@ Hyperdrive Run Completed - Best Model – Figure
 
 AutoML Run - Best Model - Explanation 
 
+As can be seen, 'time's is being shown as the most important predictor feature. 
+
 ## Screen Recording
 *TODO* Provide a <a href="https://youtu.be/LekDuPgowe0">link</a> to a screen recording of the project in action. Remember that the screencast should demonstrate:
 - A working model
