@@ -16,9 +16,8 @@ The project set up involved the following steps done in multiple runs in an iter
 - Starting the Cloud based Azure ML environment's Machine Learning Studio via the Udacity Labs.
 - Downloading the Github files (notebooks, python & data source link) in the virtual machine on Azure ML.
 - Loading the notebooks and starting the notebooks compute cluster.
-- For Hyperdrive, testing out 'train.py' independently in the Bash Git terminal to ensure flawless execution before executing the Hyperdrive run.
 - Phase 1 - Running the AutoML run notebook and making interactive changes as required.
-- Phase 2 - Running the Hyperdrive run notebook and making interactive changes as required.
+- Phase 2 - For Hyperdrive, testing out 'train.py' independently in the Bash Git terminal to ensure flawless execution before executing the Hyperdrive run.Running the Hyperdrive run notebook and making interactive changes as required.
 - Phase 3 - Registration & Deployment of the best model either from Azure ML or Hyperdrive as a web service and testing out the same.
 - Downloading the notebook & run files periodically to the virtual machine and uploading back to Github.
 - Cleaning up the Azure ML resources used (web service, compute cluster & notebooks compute).
@@ -93,10 +92,9 @@ As mentioned in the project improvement section below, this AutoML feature is ve
 
 <b>debug_log</b> - the name of the file where the Automl run errors will be logged
 
-### Results
-*TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
+### AutoML Execution Run
 
-*TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
+Please find screenshots below of the `RunDetails` widget.
 
 ![Figure  - AutoML Execution RunWidget Details ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_RunDetails_Widget_Execution_1.png) 
 
@@ -106,8 +104,9 @@ Start Of AutoML Execution
 
 End Of AutoML Execution 
 
-On all the session run days AutoML selected VotingEnsemble as the best model for the primary metric - 'Accuracy'. The VotingEnsemble model makes a prediction based on an ensemble or combination of other models. Hence, it will always perform better as compared to the prediction of a single model such as Logistic Regression. 
+### Results
 
+On all the session run days AutoML selected VotingEnsemble as the best model for the primary metric - 'Accuracy'. The VotingEnsemble model makes a prediction based on an ensemble or combination of other models. Hence, it will always perform better as compared to the prediction of a single model such as Logistic Regression. Please find the screenshot of the best model trained with it's parameters.
 
 ![Figure  - AutoML Run Completed - Best Model ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Run_Completed_Best_Model.png) 
 
@@ -120,6 +119,8 @@ AutoML Run - Best Model - Details 1
 ![Figure  - AutoML Run Completed - Best Model - Details - 2](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Run_Best_Model_Details_2.png) 
 
 AutoML Run - Best Model - Details 2  
+
+*TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
 
 
 ## Hyperparameter Tuning
