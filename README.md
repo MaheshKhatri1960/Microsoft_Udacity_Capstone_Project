@@ -308,8 +308,6 @@ The 3 major Azure ML Resources used in the project - the <b>deployed web service
 
 ## Project Improvement Suggestions
 
-<b>Question -  How to improve the project in the future ?</b>
-
 1 - <b>Further Research Of Random Forest Algorithms</b> - Over the last few days, I had conducted multiple runs of both Hyperdrive & AutoML for this project. While AutoML was consistently selecting 'VotingEnsemble' as the best algorithm with roughly the same accuracy performance, in the case of Hyperdrive, in case SKlearn's RandomForestClassifier is the algorithm used, it is possible to get slightly better accuracy results. I did try out some runs of the same but due to paucity of time for the project submission, could not complete the model deployment for the same. I plan to do so in the future. Also, as per the dataset authors, Random Forest algorithms can give better predictions. Hence, this needs to be studied further.  We also need to find out as to how to improve the performance of the results of the 6 AutoML's RandomForest algorithms (Nos 2,3,4,7,11 & 13) used in the AutoML run as shown in the Notebook output below.
 
 ![Figure  - AutoML Run - Executed Models - Random Forest ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Run_Random_Forests.png) 
