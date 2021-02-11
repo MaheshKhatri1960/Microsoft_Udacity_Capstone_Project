@@ -163,7 +163,7 @@ The screenshot below shows the Git Bash Terminal Execution of train.py which as 
 
 ![Figure  - Terminal Execution Of Hyperdrive program train.py ](http://www.kaytek.co.in/images/msudp3/1B09_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Train_Dot_Py_Terminal_Execution.png) 
 
-<b><p align="center">Screenshot - Git Bash Terminal Execution of train.py with parameters</p></b>
+<b><p align="center">Screenshot - Git Bash Terminal Execution of train.py with fixed hyperparameter values of '--C' as 0.5 & '--max-iter' as 1000. </p></b>
 
 Please find below an overview diagram of the Hyperdrive run operations with all it's different activities as can be seen from the notebook <a href="https://github.com/MaheshKhatri1960/Microsoft_Udacity_Scholarship_Capstone_Project/blob/main/hyperparameter_tuning.ipynb
 ">hyperparameter_tuning.ipynb</a>. For each step, the data is shown in blue rectangles, program operations are shown in green ellipses and the arrows denote the sequence of operations.
