@@ -146,7 +146,7 @@ The AutoML model chose <b>'VotingEnsemble'</b> as the best algorithm with an acc
 
 <b> How could you have improved it? </b>
 
-As mentioned in the project improvements section below, <b>'Random Forest'</b> algorithms can be studied further to improve the performance. Also, the various AutoML settings mentioned above can be experimented with to further improve the performance.
+The various AutoML settings mentioned above can be experimented with to further improve the performance. Also, as mentioned in the project improvements section below, <b>'Random Forest'</b> algorithms can be studied further to improve the performance. 
 
 ## Phase 2 - Hyperparameter Tuning
 
