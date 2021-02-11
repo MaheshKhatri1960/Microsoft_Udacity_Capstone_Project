@@ -7,7 +7,22 @@ This project consists of using Microsoft Azure machine learning (ML) to make pre
 Microsoft Udacity Azure ML Scholarship Capstone Project Overview - 3 Main Phases
 
 ## Project Set Up and Installation
-*OPTIONAL:* If your project has any special installation steps, this is where you should put it. To turn this project into a professional portfolio project, you are encouraged to explain how to set up this project in AzureML.
+
+The project set up involved the following steps done in multiple runs in an iterative sequential manner:
+
+- Preparation of the notebook files - AutoML's automl.ipynb and Hyperdrive's hyperparameter_tuning.ipynb on the local machine.
+- Preparation of the python programs - train.py & score.py on the local machine.
+- Uploading the above notebook & python files and dataset source to a Github account.
+- Starting the Cloud based Azure ML environment's Machine Learning Studio via the Udacity Labs.
+- Downloading the Github files (notebooks, python & data source link) in the virtual machine on Azure ML.
+- Loading the notebooks and starting the notebooks compute cluster.
+- For Hyperdrive, testing out 'train.py' independently in the Bash Git terminal to ensure flawless execution before executing the Hyperdrive run.
+- Phase 1 - Running the AutoML run notebook and making interactive changes as required.
+- Phase 2 - Running the Hyperdrive run notebook and making interactive changes as required.
+- Phase 3 - Registration & Deployment of the best model either from Azure ML or Hyperdrive as a web service and testing out the same.
+- Downloading the notebook & run files periodically to the virtual machine and uploading back to Github.
+- Cleaning up the Azure ML resources used (web service, compute cluster & notebooks compute).
+- Raising of questions & further research of suggestions given by Udacity Support staff (A Big Thank you to them) as well as other similar work done as available from the Udacity Knowledgebase.
 
 ## Dataset
 
