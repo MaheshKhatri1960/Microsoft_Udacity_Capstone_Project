@@ -133,7 +133,7 @@ On all the session run days AutoML selected <b>VotingEnsemble</b> as the best mo
 
 <b><p align="center">Screenshot - AutoML Run - Best Model - Primary metric 'Accuracy' and other metrics</p></b>
 
-<b> All the metrics of the best model are shown below. The last 3 lines also show the metrics returned by the other 'non-best' models. </b>
+<b> All the metrics of the best model are shown below. The last 3 lines also show the metrics returned by AutoML of the other 'non-best' models. </b>
   
 ![Figure  - Microsoft Udacity Azure ML Scholarship Capstone Project - AutoML - Best model metrics ](http://www.kaytek.co.in/images/msudp3/1B11_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Best_Model_Metrics.png)
 
