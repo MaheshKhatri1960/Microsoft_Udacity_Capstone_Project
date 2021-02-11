@@ -329,9 +329,9 @@ As can be seen, '<b>time</b> is being shown as the most important predictor feat
 ## Screen Recording
 The <a href="https://youtu.be/LekDuPgowe0">Youtube link</a> is a screen recording of the project in action which demonstrates a working model, it's demonstration & sample request sent to the endpoint and its response.
 
-## Standout Suggestions - The following was attempted by me :
+## Standout Suggestions - The following was attempted :
 
-<b>Application Insights Emabled</b> - As can be seen from the screenshot below, for the deployed model, application insights has be enabled which provides rich information on the operational performance of the web service which would be useful from a ML operations engineer's point of view. This has also been shown in the Phase 3 overview diagram above.
+<b>Application Insights Enabled</b> - As can be seen from the screenshot below, for the deployed model, application insights has be enabled which provides rich information on the operational performance of the web service which would be useful from a ML operations engineer's point of view. This has also been shown in the Phase 3 overview diagram above.
 
 ![Figure  - AutoML Run Completed - Best Model - Deployment App Insights Enabled - ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Hyperdrive_Run_Best_Model_Deployment_Enabled_App_Insights.png) 
 
@@ -347,5 +347,6 @@ The <a href="https://youtu.be/LekDuPgowe0">Youtube link</a> is a screen recordin
 
 <b><p align="center">Screenshot - Deployed web service - Application Insights - 2 </p></b>
 
-The <a href="https://youtu.be/LekDuPgowe0">Youtube link</a> screen recording also shows the Application Insights URL. 
+The <a href="https://youtu.be/LekDuPgowe0">Youtube link</a> screen recording also shows the Application Insights screen.
 
+<b> Thank you </b> - For your time and attention on this project.
