@@ -17,7 +17,7 @@ The project set up involved the following steps done in multiple runs in an iter
 - Downloading the Github files (notebooks, python & data source link) in the virtual machine on Azure ML.
 - Loading the notebooks and starting the notebooks compute cluster.
 - Phase 1 - Running the AutoML run notebook and making interactive changes as required.
-- Phase 2 - For Hyperdrive, testing out 'train.py' independently in the Bash Git terminal to ensure flawless execution before executing the Hyperdrive run.Running the Hyperdrive run notebook and making interactive changes as required.
+- Phase 2 - For Hyperdrive, testing out 'train.py' independently in the Bash Git terminal to ensure flawless execution before executing the Hyperdrive run. Running the Hyperdrive run notebook and making interactive changes as required.
 - Phase 3 - Registration & Deployment of the best model either from Azure ML or Hyperdrive as a web service and testing out the same.
 - Downloading the notebook & run files periodically to the virtual machine and uploading back to Github.
 - Cleaning up the Azure ML resources used (web service, compute cluster & notebooks compute).
@@ -53,6 +53,8 @@ AutoML Execution Run - Registered Dataset 'train_data_2'
 For the Hyperdrive part, the Microsoft CSV file is accessed directly from this Github <a href="https://raw.githubusercontent.com/MaheshKhatri1960/Udacity-Capstone-Project/master/heart_failure_clinical_records_dataset.csv">link</a> using Azure's TabularDatasetFactory class.   
 
 ## Automated ML
+
+Please find below an overview diagram of the AutoML run operations with all it's different activities. This can be seen from the notebook automl.ipynb.
 
 ![Figure  - Overview of AutoML Run Operations ](http://www.kaytek.co.in/images/msudp3/1B09_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_1.png) 
 
@@ -123,15 +125,37 @@ AutoML Run - Best Model - Details 2
 *TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
 
 
-## Hyperparameter Tuning
+## Phase 2 - Hyperparameter Tuning
+
+Before execution of the Hyperdrive run, 'train.py' would be executed independently in the Bash Git terminal to ensure flawless Hyperdrive execution. The diagram below shows the main steps of train.py
+
+**train.py Single Execution** - Please find below a diagram of the main steps happening in train.py. For each step, the data is shown in blue rectangles, program operations are shown in green ellipses and the arrows denote the sequence of operations.
 
 ![Figure  - Overview of main steps of Hyperdrive program train.py ](http://www.kaytek.co.in/images/msudp3/1B09_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Train_Dot_Py.png) 
 
 Main Steps of train.py – Python - Logistic Regression Model – Figure
 
+**Program Inputs** - the Excel 'heart_failure_clinical_records_dataset.csv' file which is read into the Azure (denoted by AZ) TabularDatasetFactory object. 
+
+**'clean_data'** is a series of steps on the csv file. Currently no operations are being done here. As mentioned below in the project improvement section, there is scope for adding more operations here.
+
+**'clean_data'** results in two pandas data frames - 'x' & 'y'.
+
+A **'train test split'** operation in the ratio of 70% / 30% respectively is then applied on 'x' & 'y' to get the 'x' & 'y' training & 'x' & 'y' test sets.
+
+The classification algorithm used is logistic regression which has two hyperparameters **'--C'** - the inverse of the regularization rate used to counteract model overfitting & **'--max-iter'** - the number of iterations for the model to converge. 
+
+**Program Outputs** - There are 2 outputs. The **Accuracy** score & also the file **'model.joblib'** which contains the post-execution model parameters. These outputs are available after the program execution. 
+
+Only the main operations happening in 'train.py' are shown above. Other operations e.g. adding argument parsers to the program, logging the run values, etc. are not shown. 
+
+The screenshot below shows the Git Bash Terminal Execution of train.py. This is an important necessary step to avoid expensive & time consuming Hyperdrive run errors.
+
 ![Figure  - Terminal Execution Of Hyperdrive program train.py ](http://www.kaytek.co.in/images/msudp3/1B09_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Train_Dot_Py_Terminal_Execution.png) 
 
 Terminal Execution of train.py – Figure
+
+Please find below an overview diagram of the Hyperdrive run operations with all it's different activities as can be seen from the notebook hyperparameter_tuning.ipynb.
 
 ![Figure  - Overview of Hyperdrive Operations ](http://www.kaytek.co.in/images/msudp3/1B09_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Hyperdrive.png) 
 
