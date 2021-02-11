@@ -174,7 +174,7 @@ Before execution of the Hyperdrive run, 'train.py' would be executed independent
 
 A **'train test split'** operation in the ratio of 70% / 30% respectively is then applied on 'x' & 'y' to get the 'x' & 'y' training & 'x' & 'y' test sets.
 
-The classification algorithm used is logistic regression which has two hyperparameters **'--C'** - the inverse of the regularization rate used to counteract model overfitting & **'--max-iter'** - the number of iterations for the model to converge. 
+The classification algorithm used is logistic regression which has two hyperparameters **'C'** - the inverse of the regularization rate used to counteract model overfitting & **'max-iter'** - the number of iterations for the model to converge. 
 
 **Program Outputs** - There are 2 outputs. The **Accuracy** score & also the file **'model.joblib'** which contains the post-execution model parameters. These outputs are available after the program execution. 
 
@@ -198,11 +198,11 @@ Please find below an overview diagram of the Hyperdrive run operations with all 
 
 The algorithm chosen for this experiment was SKLearn's <a href="https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html">Logistic Regression</a>. I chose it because of it's simplicity with reasonable performance and familiarity during the earlier part of the course. 
 
-I chose two hyperparameters **'--C'** - the inverse of the regularization rate used to counteract model overfitting within a uniform range between 0.35 to 0.90 & **"--max_iter"** - Maximum number of iterations to converge as a choice of any of the 3 values - 50,75,100. 
+I chose two hyperparameters **'C'** - the inverse of the regularization rate used to counteract model overfitting within a uniform range between 0.35 to 0.90 & **'max_iter'** - Maximum number of iterations to converge as a choice of any of the 3 values - 50,75,100. 
 
 These ranges used for the hyperparameter search were based on earlier experiences to ensure efficient hyperparameter tuning as a balance between getting good quality results without spending too much time & resources wherever possible.
 
-In my earlier Hyperdrive runs, I had also tried SKLearn's <a href="https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html">RandomForestClassifier</a> with a choice of 3 hyperparameters - 'n-estimators', 'max-depth' & 'min-samples-split'. Even though the accuracy results obtained in these runs were slightly better, due to paucity of time, I could not complete the model deployment of the same. As mentioned in the Project Improvement section below, plan to try out the same in the future.
+In my earlier Hyperdrive runs, I had also tried SKLearn's <a href="https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html">RandomForestClassifier</a> with a choice of 3 hyperparameters - **'n_estimators'**, **'max_depth'**' & **'min_samples_split'**. Even though the accuracy results obtained in these runs were slightly better, due to paucity of time, I could not complete the model deployment of the same. As mentioned in the Project Improvement section below, plan to try out the same in the future.
 
 **Impact of Hyperdrive's chosen policies on Hyperparameter Tuning**
 
