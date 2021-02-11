@@ -80,8 +80,6 @@ These AutoML Run settings are further detailed as follows :
 
 <b>enable_early_stopping</b> - helps to avoid wastage of resources if the performance is not improving.
 
-<b>enable_early_stopping</b> - helps to avoid wastage of resources if the performance is not improving.
-
 <b>verbosity</b> - default value set for logging run details which helps debug errors.
 
 <b>compute target</b> - The 'MK-1B08-CC' Compute Cluster initialized at the start of the run.
