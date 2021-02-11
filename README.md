@@ -52,7 +52,7 @@ AutoML Execution Run - Registered Dataset 'train_data_2'
 
 For the Hyperdrive part, the Microsoft CSV file is accessed directly from this Github <a href="https://raw.githubusercontent.com/MaheshKhatri1960/Udacity-Capstone-Project/master/heart_failure_clinical_records_dataset.csv">link</a> using Azure's TabularDatasetFactory class.   
 
-## Automated ML
+## Phase 1 - Automated ML
 
 Please find below an overview diagram of the AutoML run operations with all it's different activities. This can be seen from the notebook automl.ipynb.
 
@@ -124,8 +124,11 @@ AutoML Run - Best Model - Details 2
 
 *TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
 
+The AutoML model chose 'VotingEnsemble' as the best algorithm with an accuracy of '0.873'. As mentioned in the project improvements section below, 'Random Forest' algorithms can be studied further to improve the model. 
 
 ## Phase 2 - Hyperparameter Tuning
+
+Phase 2 consists of two activities. First, independent execution of train.py and then the Hyperdrive run itself.
 
 Before execution of the Hyperdrive run, 'train.py' would be executed independently in the Bash Git terminal to ensure flawless Hyperdrive execution. The diagram below shows the main steps of train.py
 
@@ -201,10 +204,10 @@ Hyperdrive RunWidget Details showing Execution completed – Figure
 
 Hyperdrive Run Completed - Best Model – Figure 
 
-## Model Deployment
+## Phase 3 - Best Run Model Selection & Deployment
 *TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
 
-As can be seen from the details above, the best AutoML Run algoritm 'VotingEnsemble' gave an accuracy of 0.87 which was higher than the Hyperdrive run accuracy of 0.83. Hence, the AutoML run best model was chosen for deployment as can be seen below.  
+As can be seen from the details above, the best AutoML Run algoritm 'VotingEnsemble' gave an accuracy of 0.873 which was higher than the Hyperdrive run accuracy of 0.83. Hence, the AutoML run best model was chosen for deployment as can be seen below.  
 
 ![Figure  - AutoML Run - Model Deployment - 1 ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Deployed_Model_1.png) 
 
