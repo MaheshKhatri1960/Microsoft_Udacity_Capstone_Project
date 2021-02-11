@@ -50,7 +50,7 @@ For the Hyperdrive part, the Microsoft CSV file is accessed directly from this G
 
 <b>enable_early_stopping</b> - helps to avoid wastage of resources if the performance is not improving.
 
-<b>Featurization</b> - One of the powerful AutoML settings configured was for automatic featurization (scaling & normalizing) of the input data. This enables automatic analysis of the input data via AutoML Run Data Guardrails which does three types of annalysis (Class balancing detection, Missing feature value imputation & High cardinality feature detection) as seen in the screenshot below. 
+<b>Featurization</b> - One of the powerful AutoML settings configured was for automatic featurization (scaling & normalizing) of the input data. This enables automatic analysis of the input data via AutoML Run Data Guardrails which does three types of analysis (Class balancing detection, Missing feature value imputation & High cardinality feature detection) as seen in the screenshot below. 
 
 ![Figure  - AutoML Run - Powerful Analysis of Input Dataset via Data Guardrails ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Run_Data_Guardrails.png) 
 
