@@ -128,7 +128,7 @@ The AutoML model chose 'VotingEnsemble' as the best algorithm with an accuracy o
 
 ## Phase 2 - Hyperparameter Tuning
 
-Phase 2 consists of two activities. First, independent execution of train.py and then the Hyperdrive run itself.
+Phase 2 consists of two activities. First, independent execution of <a href="https://github.com/MaheshKhatri1960/Microsoft_Udacity_Scholarship_Capstone_Project/blob/main/train.py">train.py</a> and then the Hyperdrive run itself.
 
 Before execution of the Hyperdrive run, 'train.py' would be executed independently in the Bash Git terminal to ensure flawless Hyperdrive execution. The diagram below shows the main steps of train.py
 
@@ -156,9 +156,10 @@ The screenshot below shows the Git Bash Terminal Execution of train.py which as 
 
 ![Figure  - Terminal Execution Of Hyperdrive program train.py ](http://www.kaytek.co.in/images/msudp3/1B09_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Train_Dot_Py_Terminal_Execution.png) 
 
-Terminal Execution of train.py – Figure
+Terminal Execution of train.py 
 
-Please find below an overview diagram of the Hyperdrive run operations with all it's different activities as can be seen from the notebook hyperparameter_tuning.ipynb. For each step, the data is shown in blue rectangles, program operations are shown in green ellipses and the arrows denote the sequence of operations.
+Please find below an overview diagram of the Hyperdrive run operations with all it's different activities as can be seen from the notebook <a href="https://github.com/MaheshKhatri1960/Microsoft_Udacity_Scholarship_Capstone_Project/blob/main/hyperparameter_tuning.ipynb
+">hyperparameter_tuning.ipynb</a>. For each step, the data is shown in blue rectangles, program operations are shown in green ellipses and the arrows denote the sequence of operations.
 
 ![Figure  - Overview of Hyperdrive Operations ](http://www.kaytek.co.in/images/msudp3/1B09_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Hyperdrive.png) 
 
@@ -189,7 +190,7 @@ Third, it has support for both discrete and continuous values of hyperparameters
 
 ## Hyperdrive Execution
 
-*TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
+Please find below screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
 
 ![Figure  - Hyperdrive Execution RunWidget Details ](http://www.kaytek.co.in/images/msudp3/1B09_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Hyperdrive_RunDetails_Widget_Execution.png) 
 
@@ -204,26 +205,18 @@ Hyperdrive RunWidget Details showing Execution details in progress - 2
 Hyperdrive RunWidget Details showing Execution completed
 
 ### Results
-*TODO*:   
+
 ![Figure  - Hyperdrive Run Completed - Best Model ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Hyperdrive_Run_Best_Model.png) 
 
-Hyperdrive Run Completed - Best Model – Figure 
+Hyperdrive Run Completed - Best Model 
 
-What are the results you got with your model? 
+<b>Model results</b> - The model gave an accuracy of '0.833". 
 
-The model gave an accuracy of '0.833". 
+<b> Model parameters </b> - The Hyperdrive parameters used were **'--C'** - the inverse of the regularization rate used to counteract model overfitting & **'--max-iter'** - the number of iterations for the model to converge. 
 
-What were the parameters of the model? 
-
-The Hyperdrive parameters used by me were **'--C'** - the inverse of the regularization rate used to counteract model overfitting & **'--max-iter'** - the number of iterations for the model to converge. 
-
-How could you have improved it? 
-
-Improvements could be done both by a wider choice of hyperparameter values as well as by choice of 'Random Forest' algorithm for Hyperdrive as mentioned in the Project Improvements section below.
+<b> Methods for improvement</b> - Improvements could be done both by a wider choice of hyperparameter values as well as by choice of 'Random Forest' algorithm for Hyperdrive as mentioned in the Project Improvements section below.
 
 ## Phase 3 - Best Run Model Selection & Deployment
-
-*TODO*: Give an overview of the deployed model.
 
 Please find an overview diagram of the activities carried out for selection, registration & deployment of the model below.
 
@@ -247,9 +240,7 @@ AutoML Run - Best Model - Deployment 2
 
 AutoML Run - Best Model - Deployment 3
 
-*TODO*: Give instructions on how to query the endpoint with a sample input.
-
-Please refer to the code from the notebook. 
+<b> Instructions on how to query the endpoint with a sample input </b> - Please refer to the code snapshot below from the notebook. 
 
 ![Figure  - Microsoft Udacity Azure ML Scholarship Capstone Project Model Query ](http://www.kaytek.co.in/images/msudp3/1B11_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Model_Query.png)
 
@@ -300,15 +291,11 @@ AutoML Run - Powerful Analysis of Input Dataset via Data Guardrails
 4 - <b> ONNX Standards Model Deployment </b> - Even though in the AutoML run configuration, the facility to create an ONNX compatible model was enabled, the same was not explored further. This is something that should be tried out in the future to help create an AI model which complies to a cross platform ONNX standard and helps increase the life & usage of the model across platforms. 
 
 ## Screen Recording
-*TODO* Provide a <a href="https://youtu.be/LekDuPgowe0">link</a> to a screen recording of the project in action. Remember that the screencast should demonstrate:
-- A working model
-- Demo of the deployed  model
-- Demo of a sample request sent to the endpoint and its response
+The <a href="https://youtu.be/LekDuPgowe0">Youtube link</a> is a screen recording of the project in action which demonstrates a working model, it's demonstration & sample request sent to the endpoint and its response.
 
-## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+## Standout Suggestions - The following was attempted by me :
 
-1 - <b>Application Insights Emabled</b> - As can be seen from the screenshot below, for the deployed model, application insights can be enabled.
+<b>Application Insights Emabled</b> - As can be seen from the screenshot below, for the deployed model, application insights can be enabled.
 
 ![Figure  - AutoML Run Completed - Best Model - Deployment App Insights Enabled - ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Hyperdrive_Run_Best_Model_Deployment_Enabled_App_Insights.png) 
 
