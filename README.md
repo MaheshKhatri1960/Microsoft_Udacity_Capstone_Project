@@ -161,9 +161,13 @@ Please find below an overview diagram of the Hyperdrive run operations with all 
 
 ![Figure  - Overview of Hyperdrive Operations ](http://www.kaytek.co.in/images/msudp3/1B09_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Hyperdrive.png) 
 
-Hyperdrive Overview – ‘train.py’ Execution with multiple parameters – Figure 
+Hyperdrive Overview – ‘train.py’ Execution with multiple parameters 
 
 *TODO*: What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
+
+The algorithm chosen for this experiment was SKLearn's Logistic Regression. I chose it because of it's simplicity with reasonable performance and familiarity during the earlier part of the course. I chose two hyperparameters **'--C'** - the inverse of the regularization rate used to counteract model overfitting & **'--max-iter'** - the number of iterations for the model to converge. The ranges used for the hyperparameter search were based on earlier experiences to ensure efficient hyperparameter tuning as a balance between getting good quality results without spending too much time & resources wherever possible.
+
+I had also tried SKLearn's <a href="https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html">RandomForestClassifier</a> in a few Hyperdrive runs with a choice of 3 hyperparameters - n-estimators, max-depth & min-samples-split. Even though the accuracy results obtained in these runs were slightly better, due to paucity of time, I could not complete the model deployment of the same. As mentioned in the Project Improvement section below, plan to try out the same in the future.
 
 **Impact of Hyperdrive's chosen policies on Hyperparameter Tuning**
 
@@ -188,15 +192,15 @@ Third, it has support for both discrete and continuous values of hyperparameters
 
 ![Figure  - Hyperdrive Execution RunWidget Details ](http://www.kaytek.co.in/images/msudp3/1B09_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Hyperdrive_RunDetails_Widget_Execution.png) 
 
-Hyperdrive RunWidget Details showing Execution details in progress – Figure 
+Hyperdrive RunWidget Details showing Execution details in progress - 1  
 
 ![Figure  - Hyperdrive Execution RunWidget Details - 2 ](http://www.kaytek.co.in/images/msudp3/1B09_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Hyperdrive_RunDetails_Widget_Execution_2.png) 
 
-Hyperdrive RunWidget Details showing Execution details in progress 2 – Figure 
+Hyperdrive RunWidget Details showing Execution details in progress - 2
 
 ![Figure  - Hyperdrive Execution Completion ](http://www.kaytek.co.in/images/msudp3/1B09_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Hyperdrive_RunDetails_Widget_Execution_Completed.png) 
 
-Hyperdrive RunWidget Details showing Execution completed – Figure 
+Hyperdrive RunWidget Details showing Execution completed
 
 ### Results
 *TODO*:   
@@ -219,9 +223,9 @@ Improvements could be done both by a wider choice of hyperparameter values as we
 ## Phase 3 - Best Run Model Selection & Deployment
 *TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
 
+<b> Best Model Selection </b> - As can be seen from the details above, the best AutoML Run algoritm 'VotingEnsemble' gave an accuracy of <b>0.873</b> which was higher than the Hyperdrive run accuracy of <b>'0.833'</b>. Hence, the AutoML run best model was chosen for deployment as can be seen below. 
 
-
-As can be seen from the details above, the best AutoML Run algoritm 'VotingEnsemble' gave an accuracy of <b>0.873</b> which was higher than the Hyperdrive run accuracy of <b>'0.833'</b>. Hence, the AutoML run best model was chosen for deployment as can be seen below.  
+<b> Model Deployment </b>
 
 ![Figure  - AutoML Run - Model Deployment - 1 ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Deployed_Model_1.png) 
 
