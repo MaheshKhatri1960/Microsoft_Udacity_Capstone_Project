@@ -184,7 +184,7 @@ The screenshot below shows the Git Bash Terminal Execution of train.py which as 
 
 ![Figure  - Terminal Execution Of Hyperdrive program train.py ](http://www.kaytek.co.in/images/msudp3/1B09_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Train_Dot_Py_Terminal_Execution.png) 
 
-<b><p align="center">Screenshot - Terminal Execution of train.py with hyperparameter values of '--C' as 0.5 & '--max-iter' as 1000 giving an Accuracy of 0.789.</p></b>
+<b><p align="center">Screenshot - Terminal Execution of train.py with hyperparameter values of **'C'** as **0.5** & **'max-iter'** as **1000** giving an Accuracy of <b>'0.789'</b>.</p></b>
 
 Please find below an overview diagram of the Hyperdrive run operations with all it's different activities as can be seen from the notebook <a href="https://github.com/MaheshKhatri1960/Microsoft_Udacity_Scholarship_Capstone_Project/blob/main/hyperparameter_tuning.ipynb
 ">hyperparameter_tuning.ipynb</a>. For each step, the data is shown in blue rectangles, program operations are shown in green ellipses and the arrows denote the sequence of operations.
@@ -198,11 +198,9 @@ Please find below an overview diagram of the Hyperdrive run operations with all 
 
 The algorithm chosen for this experiment was SKLearn's <a href="https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html">Logistic Regression</a>. I chose it because of it's simplicity with reasonable performance and familiarity during the earlier part of the course. 
 
-I chose two hyperparameters **'C'** - the inverse of the regularization rate used to counteract model overfitting within a uniform range between 0.35 to 0.90 & **'max_iter'** - Maximum number of iterations to converge as a choice of any of the 3 values - 50,75,100. 
+I chose two hyperparameters **'C'** - the inverse of the regularization rate used to counteract model overfitting within a uniform range between 0.35 to 0.90 & **'max_iter'** - Maximum number of iterations to converge as a choice of any of the 3 values - 50, 75 & 100. These ranges used for the both the hyperparameters search were based on earlier experiences to ensure efficient hyperparameter tuning as a balance between getting good quality results without spending too much time & resources wherever possible.
 
-These ranges used for the hyperparameter search were based on earlier experiences to ensure efficient hyperparameter tuning as a balance between getting good quality results without spending too much time & resources wherever possible.
-
-In my earlier Hyperdrive runs, I had also tried SKLearn's <a href="https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html">RandomForestClassifier</a> with a choice of 3 hyperparameters - **'n_estimators'**, **'max_depth'**' & **'min_samples_split'**. Even though the accuracy results obtained in these runs were slightly better, due to paucity of time, I could not complete the model deployment of the same. As mentioned in the Project Improvement section below, plan to try out the same in the future.
+In this project's earlier Hyperdrive runs, I had also tried SKLearn's <a href="https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html">RandomForestClassifier</a> with a choice of 3 hyperparameters - **'n_estimators'**, **'max_depth'**' & **'min_samples_split'**. Even though the accuracy results obtained in these runs were slightly better, due to paucity of time, I could not complete the model deployment of the same. As mentioned in the Project Improvement section below, plan to try out the same in the future.
 
 **Impact of Hyperdrive's chosen policies on Hyperparameter Tuning**
 
