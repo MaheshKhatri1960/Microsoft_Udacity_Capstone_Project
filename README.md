@@ -107,31 +107,31 @@ Please find screenshots below of the `RunDetails` widget.
 
 ![Figure  - AutoML Execution RunWidget Details ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_RunDetails_Widget_Execution_1.png) 
 
-Start Of AutoML Execution 
+<b><p align="center">Screenshot - Start Of AutoML Execution </p></b>
 
 ![Figure  - AutoML RunWidget Details - Execution Completed](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_RunDetails_Widget_Execution_Completed.png) 
 
-End Of AutoML Execution 
+<b><p align="center">Screenshot - End Of AutoML Execution</p></b>
 
 ### Results
 
-On all the session run days AutoML selected VotingEnsemble as the best model for the primary metric - 'Accuracy'. The VotingEnsemble model makes a prediction based on an ensemble or combination of other models. Hence, it will always perform better as compared to the prediction of a single model such as Logistic Regression. Please find the screenshot of the best model trained with it's parameters.
+On all the session run days AutoML selected <b>VotingEnsemble</b> as the best model for the primary metric - <b>'Accuracy'</b>. The VotingEnsemble model makes a prediction based on an ensemble or combination of other models. Please find the screenshot of the best model trained with it's parameters.
 
 ![Figure  - AutoML Run Completed - Best Model ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Run_Completed_Best_Model.png) 
 
-AutoML Run Completed - Best Model 
+<b><p align="center">Screenshot - AutoML Run Completed - Best Model</p></b>
 
 ![Figure  - AutoML Run Completed - Best Model - Details - 1](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Run_Best_Model_Details_1.png) 
 
-AutoML Run - Best Model - Details 1  
+<b><p align="center">Screenshot - AutoML Run - Best Model - Additional Details - 1</p></b>
 
 ![Figure  - AutoML Run Completed - Best Model - Details - 2](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Run_Best_Model_Details_2.png) 
 
-AutoML Run - Best Model - Details 2  
+<b><p align="center">Screenshot - AutoML Run - Best Model - Additional Details - 2</p></b>
 
-*TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
+<b>What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it? </b>
 
-The AutoML model chose 'VotingEnsemble' as the best algorithm with an accuracy of '0.873'. As mentioned in the project improvements section below, 'Random Forest' algorithms can be studied further to improve the model. Also, the various AutoML settings mentioned above can be experimented to further improve the performance.
+The AutoML model chose <b>'VotingEnsemble'</b> as the best algorithm with an accuracy of <b>'0.873'</b>. As mentioned in the project improvements section below, <b>'Random Forest'</b> algorithms can be studied further to improve the model. Also, the various AutoML settings mentioned above can be experimented with to further improve the performance.
 
 ## Phase 2 - Hyperparameter Tuning
 
@@ -143,11 +143,11 @@ Before execution of the Hyperdrive run, 'train.py' would be executed independent
 
 ![Figure  - Overview of main steps of Hyperdrive program train.py ](http://www.kaytek.co.in/images/msudp3/1B09_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Train_Dot_Py.png) 
 
-Main Steps of train.py – Python - Logistic Regression Model 
+<b><p align="center">Diagram - Main Steps of python program train.py using SKLearn's Logistic Regression Model</p></b>
 
 **Program Inputs** - the Excel 'heart_failure_clinical_records_dataset.csv' file which is read into the Azure (denoted by AZ) TabularDatasetFactory object. 
 
-**'clean_data'** is a series of steps on the csv file. Currently no cleaning operations are being done here. As mentioned below in the project improvement section, there is scope for adding more operations here.
+**'clean_data'** is a code block for a series of data cleaning steps on the csv file. Currently, nothing is being done here. As mentioned below in the project improvement section, there is scope for adding more data cleaning operations to further improve model performance.
 
 **'clean_data'** results in two pandas data frames - 'x' & 'y'.
 
@@ -157,13 +157,13 @@ The classification algorithm used is logistic regression which has two hyperpara
 
 **Program Outputs** - There are 2 outputs. The **Accuracy** score & also the file **'model.joblib'** which contains the post-execution model parameters. These outputs are available after the program execution. 
 
-Only the main operations happening in 'train.py' are shown above. Other operations e.g. adding argument parsers to the program, logging the run values, etc. are not shown. 
+<b>Please note</b> : Only the main operations happening in 'train.py' are shown above. Other operations e.g. adding argument parsers to the program, logging the run values, etc. are not shown. 
 
 The screenshot below shows the Git Bash Terminal Execution of train.py which as mentioned earlier is an important necessary step to avoid expensive & time consuming Hyperdrive run errors.
 
 ![Figure  - Terminal Execution Of Hyperdrive program train.py ](http://www.kaytek.co.in/images/msudp3/1B09_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Train_Dot_Py_Terminal_Execution.png) 
 
-Terminal Execution of train.py 
+<b><p align="center">Screenshot - Terminal Execution of train.py</p></b>
 
 Please find below an overview diagram of the Hyperdrive run operations with all it's different activities as can be seen from the notebook <a href="https://github.com/MaheshKhatri1960/Microsoft_Udacity_Scholarship_Capstone_Project/blob/main/hyperparameter_tuning.ipynb
 ">hyperparameter_tuning.ipynb</a>. For each step, the data is shown in blue rectangles, program operations are shown in green ellipses and the arrows denote the sequence of operations.
