@@ -36,7 +36,7 @@ The data from the above research is accessed from this <a href="https://www.kagg
 
 AutoML Execution Run - Registered Dataset 'train_data_2'
 
-For the Hyperdrive part, the Microsoft CSV file is accessed directly using Azure's TabularDatasetFactory class.   
+For the Hyperdrive part, the Microsoft CSV file is accessed directly from this Github <a href="https://raw.githubusercontent.com/MaheshKhatri1960/Udacity-Capstone-Project/master/heart_failure_clinical_records_dataset.csv">link</a> using Azure's TabularDatasetFactory class.   
 
 ## Automated ML
 
@@ -44,40 +44,39 @@ For the Hyperdrive part, the Microsoft CSV file is accessed directly using Azure
 
  AutoML Execution with multiple models & their hyperparameters
 
-*Overview of the `automl` settings and configuration used*
+<b>Overview of the `automl` settings and configuration used</b>
 
 ![Figure  - Microsoft Udacity Azure ML Scholarship Capstone Project - Auto ML Settings & Configuration ](http://www.kaytek.co.in/images/msudp3/1B11_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Settings_Configuration.png)
 
-*enable_early_stopping* - helps to avoid wastage of resources if the performance is not improving.
+<b>enable_early_stopping</b> - helps to avoid wastage of resources if the performance is not improving.
 
-*Featurization* - One of the powerful AutoML settings configured was for automatic featurization (scaling & normalizing) of the input data. This enables automatic analysis of the input data via AutoML Run Data Guardrails which does three types of annalysis (Class balancing detection, Missing feature value imputation & High cardinality feature detection) as seen in the screenshot below. 
+<b>Featurization</b> - One of the powerful AutoML settings configured was for automatic featurization (scaling & normalizing) of the input data. This enables automatic analysis of the input data via AutoML Run Data Guardrails which does three types of annalysis (Class balancing detection, Missing feature value imputation & High cardinality feature detection) as seen in the screenshot below. 
 
 ![Figure  - AutoML Run - Powerful Analysis of Input Dataset via Data Guardrails ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Run_Data_Guardrails.png) 
 
 AutoML Run - Powerful Analysis of Input Dataset via Data Guardrails
 
-*enable_early_stopping* - helps to avoid wastage of resources if the performance is not improving.
-
-*verbosity* - default value set for logging run details which helps debug errors.
-
-*compute target* - The 'MK-1B08-CC' Compute Cluster initialized at the start of the run.
-
-*task* - 'Classification' as it is a binary level challenge (Whether death occured - Yes / No or DEATH_EVENT = 1 /0 ).
-
-*primary metric* - has been set to 'accuracy' whose value will be optimized by Azure ML for this run.
-
-*training_data* - set to the registered dataset 'train_data_2' with the input data
-
-*label_column_name* - the name of the target column which is being predicted. In this case - DEATH_EVENT.
-
-*enable_onnx_compatible_models* - helps to create models which adhered to a cross platform <a href="https://onnx.ai/">ONNX (Open Neural Network Exchange)</a> standard.
-
-*n_cross_validations* - the number of cross validations to do to help increase the quality of the model's preditions.
-
-*debug_log* - the name of the file where the Automl run errors will be logged
-
-
 As mentioned in the project improvement section below, this AutoML feature is very powerful and can be used to improve model accuracy via intelligent selection of smaller datasets.
+
+<b>enable_early_stopping</b> - helps to avoid wastage of resources if the performance is not improving.
+
+<b>verbosity</b> - default value set for logging run details which helps debug errors.
+
+<b>compute target</b> - The 'MK-1B08-CC' Compute Cluster initialized at the start of the run.
+
+<b>task</b> - 'Classification' as it is a binary level challenge (Whether death occured - Yes / No or DEATH_EVENT = 1 /0 ).
+
+<b>primary metric</b> - has been set to 'accuracy' whose value will be optimized by Azure ML for this run.
+
+<b>training_data</b> - set to the registered dataset 'train_data_2' with the input data
+
+<b>label_column_name</b> - the name of the target column which is being predicted. In this case - DEATH_EVENT.
+
+<b>enable_onnx_compatible_models</b> - helps to create models which adhered to a cross platform <a href="https://onnx.ai/">ONNX (Open Neural Network Exchange)</a> standard.
+
+<b>n_cross_validations</b> - the number of cross validations to do to help increase the quality of the model's preditions by preventing over-fitting of the data.
+
+<b>debug_log</b> - the name of the file where the Automl run errors will be logged
 
 ### Results
 *TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
