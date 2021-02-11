@@ -253,6 +253,11 @@ Please find an overview diagram of the activities carried out for selection, reg
 
 <b><p align="center">Diagram - Phase 3 - Overview of Model Selection, Registration, Deployment & Consumption</p></b>
 
+The above diagram gives an overview of the code steps involved in model registration, deployment & consumption.
+
+For the model deployment, in addition to the notebook two additional files are very important - First is the score.py referenced earlier. Second is the AutoML run environment file <a href="https://github.com/MaheshKhatri1960/Microsoft_Udacity_Scholarship_Capstone_Project_Submission/blob/main/myenv.yml
+">myenv.yml</a> containing all software dependencies which is automatically created as part of the AutoML run and needs to be downloaded for use. This environment file makes it very easy to deploy the model as say compared to Hyperdrive deployment. The deployment code details can be seen in the notebook.
+
 <b> Best Model Selection </b> - As can be seen from the details above, the best AutoML Run algoritm 'VotingEnsemble' gave an accuracy of <b>0.873</b> which was higher than the Hyperdrive run accuracy of <b>'0.833'</b>. Hence, the AutoML run best model was chosen for deployment as can be seen below. 
 
 <b> Model Deployment Screenshots</b>
@@ -341,3 +346,6 @@ The <a href="https://youtu.be/LekDuPgowe0">Youtube link</a> is a screen recordin
 ![Figure  - AutoML Run Completed - Best Model - Deployment App Insights - 2 ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Run_Best_Model_Deployment_App_Insights_2.png) 
 
 <b><p align="center">Screenshot - Deployed web service - Application Insights - 2 </p></b>
+
+The <a href="https://youtu.be/LekDuPgowe0">Youtube link</a> screen recording also shows the Application Insights URL. 
+
