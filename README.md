@@ -14,7 +14,7 @@ In the 3rd phase, a comparison is made between the quality of the predictions ma
 
 ## Project Set Up and Installation
 
-The project set up involved the following steps done in multiple runs in an iterative sequential manner:
+The project set up, installation & execution involved the following steps done in multiple runs in an iterative sequential manner:
 
 - Preparation of the notebook files - AutoML's <a href="https://github.com/MaheshKhatri1960/Microsoft_Udacity_Scholarship_Capstone_Project/blob/main/automl.ipynb
 ">automl.ipynb</a> and Hyperdrive's <a href="https://github.com/MaheshKhatri1960/Microsoft_Udacity_Scholarship_Capstone_Project/blob/main/hyperparameter_tuning.ipynb
