@@ -21,7 +21,7 @@ The project set up involved the following steps done in multiple runs in an iter
 ">hyperparameter_tuning.ipynb</a> on the local machine.
 - Preparation of the python programs - <a href="https://github.com/MaheshKhatri1960/Microsoft_Udacity_Scholarship_Capstone_Project/blob/main/train.py">train.py</a> & <a href="https://github.com/MaheshKhatri1960/Microsoft_Udacity_Scholarship_Capstone_Project/blob/main/train.py">score.py</a> on the local machine.
 - Uploading the above notebook & python files and dataset source to a Github account.
-- Starting the Cloud based Azure ML environment's Machine Learning Studio via the Udacity Labs.
+- Execution using the MS Cloud based Azure ML environment's Machine Learning Studio via the Udacity Labs.
 - Downloading the Github files (notebooks, python & data source link) in the virtual machine on Azure ML.
 - Loading the notebooks and starting the notebooks compute cluster.
 - Phase 1 - Running the AutoML run notebook and making interactive changes as required.
