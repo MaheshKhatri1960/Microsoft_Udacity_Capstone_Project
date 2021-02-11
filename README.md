@@ -154,15 +154,20 @@ AutoML Run - Best Model - Deployment 3
 
 ## Freeing Up Azure ML Resources
 
-The 3 major Azure ML Resources used in the project - deployed web service, notebooks compute & the AutoML / Hyperdrive compute cluster are deleted as shown in the screenshots below:
+The 3 major Azure ML Resources used in the project - deployed web service, the AutoML / Hyperdrive compute cluster & the compute used for the notebooks are deleted as shown in the screenshots below:
 
 ![Figure  - Microsoft Udacity Azure ML Scholarship Capstone Project Overview  ](http://www.kaytek.co.in/images/msudp3/1B11_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Deployed_Model_Web_Service_Deletion.png)
 
-Deployed Model Web Service Deletion
+Deployed Model Web Service 'automl-deploy-2' Deletion
 
 ![Figure  - Microsoft Udacity Azure ML Scholarship Capstone Project Overview  ](http://www.kaytek.co.in/images/msudp3/1B11_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Compute_Cluster_Deletion.png)
 
-Compute Cluster Deletion
+Compute Cluster 'MK-1B08-CC' Deletion
+
+![Figure  - Microsoft Udacity Azure ML Scholarship Capstone Project Overview  ](http://www.kaytek.co.in/images/msudp3/1B11_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Notebook_Compute_Deletion.png)
+
+Notebooks Compute 'MK-1B08-NB-Compute' Deletion
+
 
 ## Project Improvement Suggestions
 *TODO*: How to improve the project in the future
