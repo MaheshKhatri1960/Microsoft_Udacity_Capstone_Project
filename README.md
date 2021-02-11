@@ -269,11 +269,13 @@ Please find an overview diagram of the activities carried out for selection, reg
 
 <b><p align="center">Notebook - automl.ipynb - Code Snapshot - Best Model Deployment Query</p></b>
 
-As can be seen, a sample data input 1 in JSON format is sent to the deployed model. Additional code for the requests and response objects as shown below the JSON data is executed and the model then returns an appropriate response - whether 1 (for Yes) or 0 (For No) as the prediction for DEATH_EVENT. For the data point queried, the deployed web service gives a response as : prediction  "{\"result\": [1]}"
+As can be seen above, a sample data input (input_data_point_1 in JSON format) is sent to the deployed model. Additional code for the requests and response objects as shown is executed and the model then returns an appropriate response - whether 1 (for Yes) or 0 (For No) as the prediction for DEATH_EVENT. 
+
+For the data point queried, the deployed web service gives a response as : prediction  "{\"result\": [1]}"
 
 ## Freeing Up Azure ML Resources
 
-The 3 major Azure ML Resources used in the project - deployed web service, the AutoML / Hyperdrive compute cluster & the compute used for the notebooks are deleted as shown in the screenshots below:
+The 3 major Azure ML Resources used in the project - the <b>deployed web service - 'automl-deploy-2'</b>, the <b>AutoML / Hyperdrive compute cluster - 'MK-1B08-CC'</b> & the <b>compute - 'MK-1B08-NB-Compute'</b> used for the notebooks are deleted as shown in the screenshots below:
 
 ![Figure  - Microsoft Udacity Azure ML Scholarship Capstone Project Overview  ](http://www.kaytek.co.in/images/msudp3/1B11_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Deployed_Model_Web_Service_Deletion.png)
 
@@ -297,13 +299,13 @@ The 3 major Azure ML Resources used in the project - deployed web service, the A
 
 <b><p align="center">Notebook - automl.ipynb - Code Output - AutoML Run Execution containing multiple Random Forest algorithms</p></b>
 
-2 - <b> Dataset Cleaning </b> - Minimal data cleaning operations were done for this project. Some researchers have suggested that perhaps the 'time' column should not be used as a feature for prediction because it reflects the patient's followup period with the doctor and hence has no apparent impact on the accuracy of the prediction. However, the model is perhaps inaccurately considering 'time' as an important feature in the best AutoML run model explanation as shown in the diagram below.
+2 - <b> Dataset Cleaning </b> - Minimal data cleaning operations were done for this project. Some researchers have suggested that perhaps the '<b>time</b>' column should not be used as a feature for prediction because it reflects the patient's followup period with the doctor and hence has no apparent impact on the accuracy of the prediction. However, the model is perhaps inaccurately considering '<b>time</b>' as the most important feature in the best AutoML run model explanation as shown in the diagram below.
 
 ![Figure  - AutoML Run Completed - Best Model - Explanation](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Run_Best_Model_Explanation.png) 
 
 <b><p align="center">Screenshot - AutoML Run - Best Model - Explanation showing importance of individual model features</p></b>
 
-As can be seen, 'time's is being shown as the most important predictor feature followed by 'serum_creatinine' & 'ejection fraction'. As has been mentioned in the dataset section above, the dataset creators believe that "Machine learning can predict survival of patients with heart failure from <b>serum creatinine and ejection fraction alone"</b>. Hence, excluding 'time', our AutoML run best model explanations seem to confirm the researcher's findings too in terms of the importance of 'serum_creatinine' & 'ejection fraction'. Hence, it is crucial to remove 'time' from the features sent to to the model for future training and see the impact on both the accuracy metric as well as the impact on the relative importance of the 'serum_creatinine' & 'ejection fraction' features. 
+As can be seen, '<b>time</b> is being shown as the most important predictor feature followed by '<b>serum_creatinine</b>' & '<b>ejection fraction</b>'. As has been mentioned in the dataset section above, the dataset creators believe that "Machine learning can predict survival of patients with heart failure from <b>serum creatinine and ejection fraction alone"</b>. Hence, except for '<b>time</b>', our AutoML run best model explanations seem to confirm the researcher's findings. Hence, it may be worthwhile to remove '<b>time</b>' from the features sent to to the model for future work and see the impact on both the accuracy metric as well as the impact on the relative importance of the '<b>serum_creatinine</b>' & '<b>ejection fraction</b>' features in model prediction. 
 
 3 - <b>Exploring smaller dataset sizes </b> - It is remarkable that even with the current dataset small size (only 299 records) as compared to usually large dataset sizes used in machine learning models, the returned accuracy figures are consistently in the high eighties. As future research beckons creation of increasingly smarter machine learning models with small dataset sizes, it would be insightful to try and further reduce the datasize to numbers less than 299 and see the impact on the metrics. Since data preparation is one of the most tedious and error prone tasks in machine learning, reducing dataset size without much impacting model prediction accuracy would be an important area of improvement. As mentioned in the AutoML section above, the AutoML Data Guardrails facility is very powerful and can be used to improve model accuracy via intelligent selection of smaller datasets.
 
