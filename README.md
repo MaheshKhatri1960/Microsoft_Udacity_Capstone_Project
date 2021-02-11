@@ -38,7 +38,10 @@ The data from the above research is accessed from this <a href="https://www.kagg
 
  AutoML Execution with multiple models & their hyperparameters – Figure 
 
-*TODO*: Give an overview of the `automl` settings and configuration you used for this experiment
+*Overview of the `automl` settings and configuration used*
+
+![Figure  - Microsoft Udacity Azure ML Scholarship Capstone Project - Auto ML Settings & Configuration ](http://www.kaytek.co.in/images/msudp3/1B11_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Settings_Configuration.png)
+
 
 One of the powerful AutoML settings configured was for automatic featurization (scaling & normalizing) of the input data. This enables automatic analysis of the input data via AutoML Run Data Guardrails which does three types of annalysis (Class balancing detection, Missing feature value imputation & High cardinality feature detection) as seen in the screenshot below. 
 
@@ -47,25 +50,6 @@ One of the powerful AutoML settings configured was for automatic featurization (
 AutoML Run - Powerful Analysis of Input Dataset via Data Guardrails
 
 As mentioned in the project improvement section below, this AutoML feature is very powerful and can be used to improve model accuracy via intelligent selection of smaller datasets.
-
-automl_settings = {
-    "enable_early_stopping" : True,
-    "featurization": 'auto',
-    "verbosity": logging.INFO,
-}
-
-automl_config = AutoMLConfig(
-    compute_target=compute_target,
-    experiment_timeout_minutes=20,
-    task="classification",
-    primary_metric="accuracy",
-    training_data=train_data_2_ds,
-    label_column_name="DEATH_EVENT",
-    enable_onnx_compatible_models=True,
-    n_cross_validations=5,
-    debug_log = "automl_errors.log",
-    **automl_settings
-)
 
 ### Results
 *TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
