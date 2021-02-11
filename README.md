@@ -10,8 +10,10 @@ Microsoft Udacity Azure ML Scholarship Capstone Project Overview - 3 Main Phases
 
 The project set up involved the following steps done in multiple runs in an iterative sequential manner:
 
-- Preparation of the notebook files - AutoML's automl.ipynb and Hyperdrive's hyperparameter_tuning.ipynb on the local machine.
-- Preparation of the python programs - train.py & score.py on the local machine.
+- Preparation of the notebook files - AutoML's <a href="https://github.com/MaheshKhatri1960/Microsoft_Udacity_Scholarship_Capstone_Project/blob/main/automl.ipynb
+">automl.ipynb</a> and Hyperdrive's <a href="https://github.com/MaheshKhatri1960/Microsoft_Udacity_Scholarship_Capstone_Project/blob/main/hyperparameter_tuning.ipynb
+">hyperparameter_tuning.ipynb</a> on the local machine.
+- Preparation of the python programs - <a href="https://github.com/MaheshKhatri1960/Microsoft_Udacity_Scholarship_Capstone_Project/blob/main/train.py">train.py</a> & <a href="https://github.com/MaheshKhatri1960/Microsoft_Udacity_Scholarship_Capstone_Project/blob/main/train.py">score.py</a> on the local machine.
 - Uploading the above notebook & python files and dataset source to a Github account.
 - Starting the Cloud based Azure ML environment's Machine Learning Studio via the Udacity Labs.
 - Downloading the Github files (notebooks, python & data source link) in the virtual machine on Azure ML.
@@ -289,13 +291,13 @@ AutoML Run - Best Model - Explanation
 
 As can be seen, 'time's is being shown as the most important predictor feature followed by 'serum_creatinine' & 'ejection fraction'. As has been mentioned in the dataset section above, the dataset creators believe that <b>"Machine learning can predict survival of patients with heart failure from serum creatinine and ejection fraction alone"</b>. With the exception of 'time', our AutoML run best model explanations seem to confirm the researcher's findings too in terms of the importance of 'serum_creatinine' & 'ejection fraction'. Hence, it is crucial to remove 'time' from the features sent to to the model and see the impact on both the accuracy metric as well as the relative importance of 'serum_creatinine' & 'ejection fraction'. 
 
-3 - <b>Dataset Size </b> - It is remarkable that even with the current dataset size not being very large (only 299 records) as compared to other very large dataset sizes used in machine learning models, the returned accuracy figures are consistently in the high eighties. As future research beckons creation of increasingly smarter machine learning models with small data sizes, it would be insightful to try and further reduce the datasize to numbers less than 299 and see the impact on the metrics. Since data preparation is one of the most tedious and error prone tasks in machine learning, reducing dataset size without much impacting model prediction accuracy would be an important area of improvement. As mentioned in the AutoML section above, the AutoML Data Guardrails facility is very powerful and can be used to improve model accuracy via intelligent selection of smaller datasets.
+3 - <b>Exploring smaller dataset sizes </b> - It is remarkable that even with the current dataset size not being very large (only 299 records) as compared to other very large dataset sizes used in machine learning models, the returned accuracy figures are consistently in the high eighties. As future research beckons creation of increasingly smarter machine learning models with small data sizes, it would be insightful to try and further reduce the datasize to numbers less than 299 and see the impact on the metrics. Since data preparation is one of the most tedious and error prone tasks in machine learning, reducing dataset size without much impacting model prediction accuracy would be an important area of improvement. As mentioned in the AutoML section above, the AutoML Data Guardrails facility is very powerful and can be used to improve model accuracy via intelligent selection of smaller datasets.
 
 ![Figure  - AutoML Run - Powerful Analysis of Input Dataset via Data Guardrails ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Run_Data_Guardrails.png) 
 
 AutoML Run - Powerful Analysis of Input Dataset via Data Guardrails
 
-4 - <b> ONNX Standards Model Deployment </b> - This is something that should be tried out in the future to help create an AI model which comlpies to a cross platform ONNX standard and helps increase the life of the model.
+4 - <b> ONNX Standards Model Deployment </b> - Even though in the AutoML run configuration, the facility to create an ONNX compatible model was enabled, the same was not explored further. This is something that should be tried out in the future to help create an AI model which complies to a cross platform ONNX standard and helps increase the life & usage of the model across platforms. 
 
 ## Screen Recording
 *TODO* Provide a <a href="https://youtu.be/LekDuPgowe0">link</a> to a screen recording of the project in action. Remember that the screencast should demonstrate:
