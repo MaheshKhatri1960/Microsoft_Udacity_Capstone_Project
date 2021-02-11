@@ -248,6 +248,14 @@ AutoML Run - Best Model - Deployment 3
 
 *TODO*: Give instructions on how to query the endpoint with a sample input.
 
+Please refer to the code from the notebook. 
+
+![Figure  - Microsoft Udacity Azure ML Scholarship Capstone Project Model Query ](http://www.kaytek.co.in/images/msudp3/1B11_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Model_Query.png)
+
+Best Model Deployment Query
+
+As can be seen, a sample data input in JSON format is sent to the deployed model. Additional code as shown below the JSON data is executed and the model then returns an appropriate response - whether 1 (for Yes) or 0 (For No) as the prediction for DEATH_EVENT.
+
 ## Freeing Up Azure ML Resources
 
 The 3 major Azure ML Resources used in the project - deployed web service, the AutoML / Hyperdrive compute cluster & the compute used for the notebooks are deleted as shown in the screenshots below:
