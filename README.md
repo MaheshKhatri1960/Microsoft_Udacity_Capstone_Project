@@ -42,12 +42,15 @@ The data from the above research is accessed from this <a href="https://www.kagg
 
 ![Figure  - Microsoft Udacity Azure ML Scholarship Capstone Project - Auto ML Settings & Configuration ](http://www.kaytek.co.in/images/msudp3/1B11_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Settings_Configuration.png)
 
+*enable_early_stopping* - helps to avoid wastage of resources if the performance is not improving.
 
-One of the powerful AutoML settings configured was for automatic featurization (scaling & normalizing) of the input data. This enables automatic analysis of the input data via AutoML Run Data Guardrails which does three types of annalysis (Class balancing detection, Missing feature value imputation & High cardinality feature detection) as seen in the screenshot below. 
+*Featurization* - One of the powerful AutoML settings configured was for automatic featurization (scaling & normalizing) of the input data. This enables automatic analysis of the input data via AutoML Run Data Guardrails which does three types of annalysis (Class balancing detection, Missing feature value imputation & High cardinality feature detection) as seen in the screenshot below. 
 
 ![Figure  - AutoML Run - Powerful Analysis of Input Dataset via Data Guardrails ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Run_Data_Guardrails.png) 
 
 AutoML Run - Powerful Analysis of Input Dataset via Data Guardrails
+
+
 
 As mentioned in the project improvement section below, this AutoML feature is very powerful and can be used to improve model accuracy via intelligent selection of smaller datasets.
 
@@ -175,6 +178,8 @@ As can be seen, 'time's is being shown as the most important predictor feature f
 ![Figure  - AutoML Run - Powerful Analysis of Input Dataset via Data Guardrails ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Run_Data_Guardrails.png) 
 
 AutoML Run - Powerful Analysis of Input Dataset via Data Guardrails
+
+4 - <b> ONNX Standards Model Deployment </b> - This is something that should be tried out in the future to help create an AI model which comlpies to a cross platform ONNX standard and helps increase the life of the model.
 
 ## Screen Recording
 *TODO* Provide a <a href="https://youtu.be/LekDuPgowe0">link</a> to a screen recording of the project in action. Remember that the screencast should demonstrate:
