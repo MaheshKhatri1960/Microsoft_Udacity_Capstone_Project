@@ -58,7 +58,7 @@ Please find below an overview diagram of the AutoML run operations with all it's
 
 ![Figure  - Overview of AutoML Run Operations ](http://www.kaytek.co.in/images/msudp3/1B09_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_1.png) 
 
- AutoML Execution with multiple models & their hyperparameters
+ AutoML Execution with multiple models & their hyperparameters resulting in the best model 'best_automl_model.pkl' file in the selection and further deployment phase.
 
 <b>Overview of the `automl` settings and configuration used</b>
 
