@@ -4,7 +4,7 @@ This project consists of using Microsoft Azure machine learning (ML) to make pre
 
 ![Figure  - Microsoft Udacity Azure ML Scholarship Capstone Project Overview  ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Overview.png) 
 
-<center>Microsoft Udacity Azure ML Scholarship Capstone Project Overview - 3 Main Phases</center>
+<p align="center">Microsoft Udacity Azure ML Scholarship Capstone Project Overview - 3 Main Phases</p>
 
 ## Project Set Up and Installation
 
