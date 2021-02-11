@@ -66,13 +66,12 @@ Please find below an overview diagram of the AutoML run operations with all it's
 
 <b>enable_early_stopping</b> - helps to avoid wastage of resources if the performance is not improving.
 
-<b>Featurization</b> - One of the powerful AutoML settings configured was for automatic featurization (scaling & normalizing) of the input data. This enables automatic analysis of the input data via AutoML Run Data Guardrails which does three types of analysis (Class balancing detection, Missing feature value imputation & High cardinality feature detection) as seen in the screenshot below. 
+<b>Featurization</b> - One of the powerful AutoML settings configured was for automatic featurization (scaling & normalizing) of the input data. This enables automatic analysis of the input data via AutoML Run Data Guardrails which does three types of analysis (Class balancing detection, Missing feature value imputation & High cardinality feature detection) as seen in the screenshot below. As mentioned in the project improvement section below, this AutoML feature is very powerful and can be used to improve model accuracy via intelligent selection of smaller datasets.
 
 ![Figure  - AutoML Run - Powerful Analysis of Input Dataset via Data Guardrails ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Run_Data_Guardrails.png) 
 
 AutoML Run - Powerful Analysis of Input Dataset via Data Guardrails
 
-As mentioned in the project improvement section below, this AutoML feature is very powerful and can be used to improve model accuracy via intelligent selection of smaller datasets.
 
 <b>enable_early_stopping</b> - helps to avoid wastage of resources if the performance is not improving.
 
@@ -183,8 +182,7 @@ Second, due to limited experience, I did not know the extent of resource consump
 Third, it has support for both discrete and continuous values of hyperparameters. For my runs, the hyperparameter **--C** had continuous values whereas for **--max-iter** it was  discrete.
 
 
-### Results
-*TODO*: What are the results you got with your model? What were the parameters of the model? How could you have improved it?
+## Hyperdrive Execution
 
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
 
@@ -200,14 +198,30 @@ Hyperdrive RunWidget Details showing Execution details in progress 2 – Figure
 
 Hyperdrive RunWidget Details showing Execution completed – Figure 
 
+### Results
+*TODO*:   
 ![Figure  - Hyperdrive Run Completed - Best Model ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Hyperdrive_Run_Best_Model.png) 
 
 Hyperdrive Run Completed - Best Model – Figure 
 
+What are the results you got with your model? 
+
+The model gave an accuracy of '0.833". 
+
+What were the parameters of the model? 
+
+The Hyperdrive parameters used by me were **'--C'** - the inverse of the regularization rate used to counteract model overfitting & **'--max-iter'** - the number of iterations for the model to converge. 
+
+How could you have improved it? 
+
+Improvements could be done both by a wider choice of hyperparameter values as well as by choice of 'Random Forest' algorithm for Hyperdrive as mentioned in the Project Improvements section below.
+
 ## Phase 3 - Best Run Model Selection & Deployment
 *TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
 
-As can be seen from the details above, the best AutoML Run algoritm 'VotingEnsemble' gave an accuracy of 0.873 which was higher than the Hyperdrive run accuracy of 0.83. Hence, the AutoML run best model was chosen for deployment as can be seen below.  
+
+
+As can be seen from the details above, the best AutoML Run algoritm 'VotingEnsemble' gave an accuracy of <b>0.873</b> which was higher than the Hyperdrive run accuracy of <b>'0.833'</b>. Hence, the AutoML run best model was chosen for deployment as can be seen below.  
 
 ![Figure  - AutoML Run - Model Deployment - 1 ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Deployed_Model_1.png) 
 
