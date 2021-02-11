@@ -50,6 +50,25 @@ The data from the above research is accessed from this <a href="https://www.kagg
 
 AutoML Run - Powerful Analysis of Input Dataset via Data Guardrails
 
+*enable_early_stopping* - helps to avoid wastage of resources if the performance is not improving.
+
+*verbosity* - default value set for logging run details which helps debug errors.
+
+*compute target* - The 'MK-1B08-CC' Compute Cluster initialized at the start of the run.
+
+*task* - 'Classification' as it is a binary level challenge (Whether death occured - Yes / No or DEATH_EVENT = 1 /0 ).
+
+*primary metric* - has been set to 'accuracy' whose value will be optimized by Azure ML for this run.
+
+*training_data* - set to the registered dataset 'train_data_2' with the input data
+
+*label_column_name* - the name of the target column which is being predicted. In this case - DEATH_EVENT.
+
+*enable_onnx_compatible_models* - helps to create models which adhered to a cross platform <a href="https://onnx.ai/">ONNX (Open Neural Network Exchange)</a> standard.
+
+*n_cross_validations* - the number of cross validations to do to help increase the quality of the model's preditions.
+
+*debug_log* - the name of the file where the Automl run errors will be logged
 
 
 As mentioned in the project improvement section below, this AutoML feature is very powerful and can be used to improve model accuracy via intelligent selection of smaller datasets.
