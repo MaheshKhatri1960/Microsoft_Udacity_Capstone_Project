@@ -221,7 +221,14 @@ How could you have improved it?
 Improvements could be done both by a wider choice of hyperparameter values as well as by choice of 'Random Forest' algorithm for Hyperdrive as mentioned in the Project Improvements section below.
 
 ## Phase 3 - Best Run Model Selection & Deployment
-*TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
+
+*TODO*: Give an overview of the deployed model.
+
+Please find an overview diagram of the activities carried out for selection, registration & deployment of the model below.
+
+![Figure  - Microsoft Udacity Azure ML Scholarship Capstone Project - Phase 3 Overview](http://www.kaytek.co.in/images/msudp3/1B11_Mahesh_Khatri_MSUD_Azure_ML_Scholarship_Capstone_Project_Phase_3_Overview.png)
+
+Phase 3 - Overview of Model Selection, Registration, Deployment & Consumption
 
 <b> Best Model Selection </b> - As can be seen from the details above, the best AutoML Run algoritm 'VotingEnsemble' gave an accuracy of <b>0.873</b> which was higher than the Hyperdrive run accuracy of <b>'0.833'</b>. Hence, the AutoML run best model was chosen for deployment as can be seen below. 
 
@@ -238,6 +245,8 @@ AutoML Run - Best Model - Deployment 2
 ![Figure  - AutoML Run - Model Deployment - 3 ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Deployed_Model_3.png) 
 
 AutoML Run - Best Model - Deployment 3
+
+*TODO*: Give instructions on how to query the endpoint with a sample input.
 
 ## Freeing Up Azure ML Resources
 
