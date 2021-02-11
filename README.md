@@ -127,7 +127,7 @@ On all the session run days AutoML selected <b>VotingEnsemble</b> as the best mo
 
 ![Figure  - AutoML Run Completed - Best Model - Details - 2](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Run_Best_Model_Details_2.png) 
 
-<b><p align="center">Screenshot - AutoML Run - Best Model - Additional Details - 2</p></b>
+<b><p align="center">Screenshot - AutoML Run - Best Model - Primary metric 'Accuracy' and other metrics</p></b>
 
 <b>What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it? </b>
 
@@ -163,7 +163,7 @@ The screenshot below shows the Git Bash Terminal Execution of train.py which as 
 
 ![Figure  - Terminal Execution Of Hyperdrive program train.py ](http://www.kaytek.co.in/images/msudp3/1B09_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Train_Dot_Py_Terminal_Execution.png) 
 
-<b><p align="center">Screenshot - Terminal Execution of train.py</p></b>
+<b><p align="center">Screenshot - Git Bash Terminal Execution of train.py with parameters</p></b>
 
 Please find below an overview diagram of the Hyperdrive run operations with all it's different activities as can be seen from the notebook <a href="https://github.com/MaheshKhatri1960/Microsoft_Udacity_Scholarship_Capstone_Project/blob/main/hyperparameter_tuning.ipynb
 ">hyperparameter_tuning.ipynb</a>. For each step, the data is shown in blue rectangles, program operations are shown in green ellipses and the arrows denote the sequence of operations.
