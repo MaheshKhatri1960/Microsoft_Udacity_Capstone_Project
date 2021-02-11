@@ -255,12 +255,16 @@ Please find an overview diagram of the activities carried out for selection, reg
 
 The above diagram gives an overview of the code steps involved in model registration, deployment & consumption.
 
-For the model deployment, in addition to the notebook two additional files are very important - First is the score.py referenced earlier. Second is the AutoML run environment file <a href="https://github.com/MaheshKhatri1960/Microsoft_Udacity_Scholarship_Capstone_Project_Submission/blob/main/myenv.yml
-">myenv.yml</a> containing all software dependencies which is automatically created as part of the AutoML run and needs to be downloaded for use. This environment file makes it very easy to deploy the model as say compared to Hyperdrive deployment. The deployment code details can be seen in the notebook.
-
 <b> Best Model Selection </b> - As can be seen from the details above, the best AutoML Run algoritm 'VotingEnsemble' gave an accuracy of <b>0.873</b> which was higher than the Hyperdrive run accuracy of <b>'0.833'</b>. Hence, the AutoML run best model was chosen for deployment as can be seen below. 
 
-<b> Model Deployment Screenshots</b>
+For the model deployment, in addition to the notebook, two additional files are very important :
+
+1st is the score.py mentioned earlier.
+
+2nd is the AutoML run environment file <a href="https://github.com/MaheshKhatri1960/Microsoft_Udacity_Scholarship_Capstone_Project_Submission/blob/main/myenv.yml
+">myenv.yml</a> containing all the operating environment software dependencies. This file is automatically created as part of the AutoML run and needs to be downloaded for use. This environment file makes it very easy to deploy the model as say compared to Hyperdrive deployment. 
+
+The deployment code can be seen in the notebook. Deployment screenshots are shown below.
 
 ![Figure  - AutoML Run - Model Deployment - 1 ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Deployed_Model_1.png) 
 
