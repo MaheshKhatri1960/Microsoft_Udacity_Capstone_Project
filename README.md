@@ -52,7 +52,7 @@ The data from the above research is accessed from this <a href="https://www.kagg
 
 ![Figure  - Microsoft Udacity Azure ML Scholarship Capstone Project AutoML Run Dataset - ](http://www.kaytek.co.in/images/msudp3/1B11_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Dataset.png)
 
-AutoML Execution Run - Registered Dataset 'train_data_2'
+<b><p align="center">Screenshot - AutoML Execution Run - Registered Dataset 'train_data_2'</p></b>
 
 For the Hyperdrive part, the Microsoft CSV file is accessed directly from this Github <a href="https://raw.githubusercontent.com/MaheshKhatri1960/Udacity-Capstone-Project/master/heart_failure_clinical_records_dataset.csv">link</a> using Azure's TabularDatasetFactory class.   
 
@@ -62,11 +62,15 @@ Please find below an overview diagram of the AutoML run operations with all it's
 
 ![Figure  - Overview of AutoML Run Operations ](http://www.kaytek.co.in/images/msudp3/1B09_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_1.png) 
 
- AutoML Execution with multiple models & their hyperparameters resulting in the best model 'best_automl_model.pkl' file in the selection and further deployment phase.
+<b><p align="center">Diagram - AutoML Execution with multiple models & their hyperparameters resulting in the best model 'best_automl_model.pkl' file</p></b>
 
-<b>Overview of the `automl` settings and configuration used</b>
+ <b>Diagram - Overview of the `automl` settings and configuration used</b>
 
 ![Figure  - Microsoft Udacity Azure ML Scholarship Capstone Project - Auto ML Settings & Configuration ](http://www.kaytek.co.in/images/msudp3/1B11_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Settings_Configuration.png)
+
+<b><p align="center">Code Snapshot - AutoML Run Settings & Configuration<</p></b>
+
+These settings are further detailed as follows :
 
 <b>enable_early_stopping</b> - helps to avoid wastage of resources if the performance is not improving.
 
