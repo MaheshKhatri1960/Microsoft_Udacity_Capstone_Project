@@ -133,6 +133,12 @@ On all the session run days AutoML selected <b>VotingEnsemble</b> as the best mo
 
 <b><p align="center">Screenshot - AutoML Run - Best Model - Primary metric 'Accuracy' and other metrics</p></b>
 
+<b> All the metrics of the best model are shown below </b>:
+  
+![Figure  - Microsoft Udacity Azure ML Scholarship Capstone Project - AutoML - Best model metrics ](http://www.kaytek.co.in/images/msudp3/1B11_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Best_Model_Metrics.png)
+
+<b><p align="center">Notebook - automl.ipynb - Code Output Snapshot - AutoML - Best model metrics</p></b>
+
 <b>What are the results you got with your automated ML model? </b>
   
 The AutoML model chose <b>'VotingEnsemble'</b> as the best algorithm with an accuracy of <b>'0.873'</b>. 
