@@ -54,7 +54,7 @@ The dataset below is available as a Microsoft Excel csv file and has the followi
 The task is to create a model for predicting mortality (indicated as value of DEATH_EVENT = 1 in the above dataset) caused by Heart Failure.
 
 ### Access
-The data from the above research is accessed from this <a href="https://www.kaggle.com/andrewmvd/heart-failure-clinical-data">Kaggle Dataset Link</a> as a Microsoft CSV file. For the AutoML phase, an Azure registered dataset called 'train_data_2' is created for use by the AutoML run as shown in the screenshot below. 
+The data from the above research is accessed from this <a href="https://www.kaggle.com/andrewmvd/heart-failure-clinical-data">Kaggle Dataset Link</a> as a Microsoft CSV file. For the AutoML phase, an Azure registered dataset called '<b>train_data_2</b>' is created for use by the AutoML run as shown in the screenshot below. 
 
 ![Figure  - Microsoft Udacity Azure ML Scholarship Capstone Project AutoML Run Dataset - ](http://www.kaytek.co.in/images/msudp3/1B11_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Dataset.png)
 
