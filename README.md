@@ -66,13 +66,6 @@ Please find below an overview diagram of the AutoML run operations with all it's
 
 <b>enable_early_stopping</b> - helps to avoid wastage of resources if the performance is not improving.
 
-<b>Featurization</b> - One of the powerful AutoML settings configured was for automatic featurization (scaling & normalizing) of the input data. This enables automatic analysis of the input data via AutoML Run Data Guardrails which does three types of analysis (Class balancing detection, Missing feature value imputation & High cardinality feature detection) as seen in the screenshot below. As mentioned in the project improvement section below, this AutoML feature is very powerful and can be used to improve model accuracy via intelligent selection of smaller datasets.
-
-![Figure  - AutoML Run - Powerful Analysis of Input Dataset via Data Guardrails ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Run_Data_Guardrails.png) 
-
-AutoML Run - Powerful Analysis of Input Dataset via Data Guardrails
-
-
 <b>enable_early_stopping</b> - helps to avoid wastage of resources if the performance is not improving.
 
 <b>verbosity</b> - default value set for logging run details which helps debug errors.
@@ -91,7 +84,13 @@ AutoML Run - Powerful Analysis of Input Dataset via Data Guardrails
 
 <b>n_cross_validations</b> - the number of cross validations to do to help increase the quality of the model's preditions by preventing over-fitting of the data.
 
-<b>debug_log</b> - the name of the file where the Automl run errors will be logged
+<b>debug_log</b> - the file where the Automl run errors will be logged - <a href ="https://github.com/MaheshKhatri1960/Microsoft_Udacity_Scholarship_Capstone_Project/blob/main/automl_errors.log">'automl_errors.log'</a>.
+
+<b>Featurization</b> - One of the powerful AutoML settings configured was for automatic featurization (scaling & normalizing) of the input data. This enables automatic analysis of the input data via AutoML Run Data Guardrails which does three types of analysis (Class balancing detection, Missing feature value imputation & High cardinality feature detection) as seen in the screenshot below. As mentioned in the project improvement section below, this AutoML feature is very powerful and can be used to improve model accuracy via intelligent selection of smaller datasets.
+
+![Figure  - AutoML Run - Powerful Analysis of Input Dataset via Data Guardrails ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Run_Data_Guardrails.png) 
+
+AutoML Run - Powerful Analysis of Input Dataset via Data Guardrails
 
 ### AutoML Execution Run
 
