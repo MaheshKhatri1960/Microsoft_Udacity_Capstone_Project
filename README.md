@@ -140,7 +140,7 @@ Main Steps of train.py – Python - Logistic Regression Model
 
 **Program Inputs** - the Excel 'heart_failure_clinical_records_dataset.csv' file which is read into the Azure (denoted by AZ) TabularDatasetFactory object. 
 
-**'clean_data'** is a series of steps on the csv file. Currently no operations are being done here. As mentioned below in the project improvement section, there is scope for adding more operations here.
+**'clean_data'** is a series of steps on the csv file. Currently no cleaning operations are being done here. As mentioned below in the project improvement section, there is scope for adding more operations here.
 
 **'clean_data'** results in two pandas data frames - 'x' & 'y'.
 
