@@ -54,7 +54,7 @@ For the Hyperdrive part, the Microsoft CSV file is accessed directly from this G
 
 ## Phase 1 - Automated ML
 
-Please find below an overview diagram of the AutoML run operations with all it's different activities. This can be seen from the notebook automl.ipynb.
+Please find below an overview diagram of the AutoML run operations with all it's different activities. This can be seen from the notebook <a href="https://github.com/MaheshKhatri1960/Microsoft_Udacity_Scholarship_Capstone_Project/blob/main/automl.ipynb">automl.ipynb</a>.
 
 ![Figure  - Overview of AutoML Run Operations ](http://www.kaytek.co.in/images/msudp3/1B09_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_1.png) 
 
