@@ -140,15 +140,9 @@ The AutoML model chose <b>'VotingEnsemble'</b> as the best algorithm with an acc
 <b> AutoML Run Best Model Parameters - 1</b>
 
 ![Figure  - Microsoft Udacity Azure ML Scholarship Capstone Project - AutoML - Best model Parameters ](http://www.kaytek.co.in/images/msudp3/1B11_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Best_Model_Parameters.png)
-
-<b><p align="center">Notebook automl.ipynb - Code Output Snapshot - AutoML - Best model Parameters - 1</p></b>
-
-
-<b> AutoML Run Best Model Parameters - 2</b>
-
 ![Figure  - Microsoft Udacity Azure ML Scholarship Capstone Project - AutoML - Best model Parameters 2 ](http://www.kaytek.co.in/images/msudp3/1B11_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Best_Model_Parameters-2.png)
 
-<b><p align="center">Notebook automl.ipynb - Code Output Snapshot - AutoML - Best model Parameters - 2</p></b>
+<b><p align="center">Notebook - automl.ipynb - Code Output Snapshot - AutoML - Best model Parameters</p></b>
 
 <b> How could you have improved it? </b>
 
