@@ -1,5 +1,3 @@
-*NOTE:* This file is a template that you can use to create the README for your project. The *TODO* comments below will highlight the information you should be sure to include.
-
 # Microsoft Azure Automated ML & Hyperdrive Best Model Training & Deployment for Predictions From Kaggle Heart Failure Dataset 
 
 This project consists of using Microsoft Azure machine learning (ML) to make predictions from the Kaggle Heart Failure <a href="https://www.kaggle.com/andrewmvd/heart-failure-clinical-data">dataset</a>. It has 3 phases. In the 1st phase, a model is trained using Microsoft Azure's <a href="https://docs.microsoft.com/en-us/azure/machine-learning/concept-automated-ml">AutoML (Automated ML)</a>. In the 2nd phase, Microsoft Azure's <a href="https://docs.microsoft.com/en-us/azure/machine-learning/how-to-tune-hyperparameters">Hyperdrive</a> package which can efficiently and speedily automate the learning using combinations of a machine learning model's hyperparameters is used. In the 3rd phase, a comparison is made between the quality of the predictions made by both the AutoML and Hyperdrive phases. The model which returned the best predictions from between the two approaches is then deployed. After deployment, it is tested with sample data to demonstrate it's functioning.     
@@ -13,9 +11,7 @@ Microsoft Udacity Azure ML Scholarship Capstone Project Overview - 3 Main Phases
 
 ## Dataset
 
-### Overview
-*TODO*: Explain about the data you are using and where you got it from.
-
+### Overview of the Data used for the project 
 Cardiovascular diseases (CVDs) are the number 1 cause of death globally, taking an estimated 17.9 million lives each year, which accounts for 31% of all deaths worldwide.
 
 Heart failure is a common event caused by CVDs and this dataset contains 12 features that can be used to predict mortality by heart failure.
@@ -26,7 +22,7 @@ People with cardiovascular disease or who are at high cardiovascular risk (due t
 
 Davide Chicco, Giuseppe Jurman: Machine learning can predict survival of patients with heart failure from serum creatinine and ejection fraction alone. BMC Medical Informatics and Decision Making 20, 16 (2020) - (<a href="https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-020-1023-5">link</a>).  
 
-The dataset was obtained from the Kaggle link shown below.
+Based on the above research, the dataset was obtained from the Kaggle link shown below. In the case of the AutoML run, the data was first imported into a registered dataset within Azure ML. In the case of the Hyperdrive, it was accessed directly from the Kaggle link.
 
 ### Task
 *TODO*: Explain the task you are going to be solving with this dataset and the features you will be using for it.
