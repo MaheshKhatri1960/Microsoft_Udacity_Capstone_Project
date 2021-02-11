@@ -160,7 +160,9 @@ The 3 major Azure ML Resources used in the project - deployed web service, noteb
 
 Deployed Model Web Service Deletion
 
+![Figure  - Microsoft Udacity Azure ML Scholarship Capstone Project Overview  ](http://www.kaytek.co.in/images/msudp3/1B11_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Compute_Cluster_Deletion.png)
 
+Compute Cluster Deletion
 
 ## Project Improvement Suggestions
 *TODO*: How to improve the project in the future
