@@ -42,6 +42,8 @@ The dataset below is available as a Microsoft Excel csv file and has the followi
 
 ![Figure  - Kaggle Heart Failure Prediction Dataset Columns ](http://www.kaytek.co.in/images/msudp3/1B09_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Dataset_Full.png) 
 
+<b><p align="center">Table - Brief description of the columns of the dataset</p></b>
+
 ### Task
 The task is to create a model for predicting mortality (indicated as value of DEATH_EVENT = 1 in the above dataset) caused by Heart Failure.
 
