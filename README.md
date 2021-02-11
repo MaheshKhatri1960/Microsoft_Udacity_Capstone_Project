@@ -133,9 +133,19 @@ On all the session run days AutoML selected <b>VotingEnsemble</b> as the best mo
 
 <b><p align="center">Screenshot - AutoML Run - Best Model - Primary metric 'Accuracy' and other metrics</p></b>
 
-<b>What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it? </b>
+<b>What are the results you got with your automated ML model? 
+  
+The AutoML model chose <b>'VotingEnsemble'</b> as the best algorithm with an accuracy of <b>'0.873'</b>. 
 
-The AutoML model chose <b>'VotingEnsemble'</b> as the best algorithm with an accuracy of <b>'0.873'</b>. As mentioned in the project improvements section below, <b>'Random Forest'</b> algorithms can be studied further to improve the model. Also, the various AutoML settings mentioned above can be experimented with to further improve the performance.
+<b> AutoML Run Best Model Parameters - 1</b>
+
+![Figure  - Microsoft Udacity Azure ML Scholarship Capstone Project - AutoML - Best model Parameters ](http://www.kaytek.co.in/images/msudp3/1B11_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Best_Model_Parameters.png)
+
+<b><p align="center">Screenshot - AutoML - Best model Parameters - 1</p></b>
+
+<b> How could you have improved it? </b>
+
+As mentioned in the project improvements section below, <b>'Random Forest'</b> algorithms can be studied further to improve the performance. Also, the various AutoML settings mentioned above can be experimented with to further improve the performance.
 
 ## Phase 2 - Hyperparameter Tuning
 
