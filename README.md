@@ -133,7 +133,7 @@ Before execution of the Hyperdrive run, 'train.py' would be executed independent
 
 ![Figure  - Overview of main steps of Hyperdrive program train.py ](http://www.kaytek.co.in/images/msudp3/1B09_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Train_Dot_Py.png) 
 
-Main Steps of train.py – Python - Logistic Regression Model – Figure
+Main Steps of train.py – Python - Logistic Regression Model 
 
 **Program Inputs** - the Excel 'heart_failure_clinical_records_dataset.csv' file which is read into the Azure (denoted by AZ) TabularDatasetFactory object. 
 
@@ -149,13 +149,13 @@ The classification algorithm used is logistic regression which has two hyperpara
 
 Only the main operations happening in 'train.py' are shown above. Other operations e.g. adding argument parsers to the program, logging the run values, etc. are not shown. 
 
-The screenshot below shows the Git Bash Terminal Execution of train.py. This is an important necessary step to avoid expensive & time consuming Hyperdrive run errors.
+The screenshot below shows the Git Bash Terminal Execution of train.py which as mentioned earlier is an important necessary step to avoid expensive & time consuming Hyperdrive run errors.
 
 ![Figure  - Terminal Execution Of Hyperdrive program train.py ](http://www.kaytek.co.in/images/msudp3/1B09_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Train_Dot_Py_Terminal_Execution.png) 
 
 Terminal Execution of train.py – Figure
 
-Please find below an overview diagram of the Hyperdrive run operations with all it's different activities as can be seen from the notebook hyperparameter_tuning.ipynb.
+Please find below an overview diagram of the Hyperdrive run operations with all it's different activities as can be seen from the notebook hyperparameter_tuning.ipynb. For each step, the data is shown in blue rectangles, program operations are shown in green ellipses and the arrows denote the sequence of operations.
 
 ![Figure  - Overview of Hyperdrive Operations ](http://www.kaytek.co.in/images/msudp3/1B09_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Hyperdrive.png) 
 
@@ -163,6 +163,21 @@ Hyperdrive Overview – ‘train.py’ Execution with multiple parameters – Fi
 
 *TODO*: What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
 
+**Impact of Hyperdrive's chosen policies on Hyperparameter Tuning**
+
+One of the biggest challenges facing ML / DL practitioners tackling problems with large numbers of input data & parameters is to find high quality models at affordable time and cost. Efficient hyperparameter tuning helps in the same as it means shorter training time, lower resource consumption, and thus lower training costs. As has been found in practice,  from the entire search space available for searching for the best solutions, only a very few combinations of possible options lead to high performance. A majority of the combinations do not work and have to be discarded. Hence, hyperparameter tuning via it's policies is so essential. For Hyperdrive, there are two main policies which help achieve the same - **Early Termination**  & **Hyperparameter Sampling**. More details of my choices for this project are provided below : 
+
+**Early Termination - Bandit Policy** 
+
+I chose to go for a termination policy to achieve maximum resource savings during the computational runs. I chose Bandit Policy as it was the first policy in the documentation & it promised aggressive savings as compared to the other (Median / Truncation selection) policies. It has parameters of slack_factor = 0.1, an evaluation_interval of 1 & delay_evaluation of 5. This means that  starting from Run 5 (delay_evaluation = 5), at every stage of the execution after a single (evaluation_interval = 1) run, the prediction is compared and if the same is less than (1 / 1 + 0.1 (slack_factor))  or 91% of the best performing run, then it will be terminated. This helps to reduce training time, costs as well as system resources so that the system can move on to the next iteration. 
+
+**Hyperparameter Sampling - Random**
+
+I chose Random sampling over the other options (Grid / Bayesian) for the following reasons :
+
+First, it supported early termination (Not supported by Bayesian sampling) as this would help me save computational resources.  
+Second, due to limited experience, I did not know the extent of resource consumption for an exhaustive search (for which Grid Sampling is more suited). 
+Third, it has support for both discrete and continuous values of hyperparameters. For my runs, the hyperparameter **--C** had continuous values whereas for **--max-iter** it was  discrete.
 
 
 ### Results
