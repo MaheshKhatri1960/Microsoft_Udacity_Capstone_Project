@@ -119,7 +119,7 @@ Please find screenshots below of the `RunDetails` widget.
 
 ### Results
 
-On all the session run days AutoML selected <b>VotingEnsemble</b> as the best model for the primary metric - <b>'Accuracy'</b>. The VotingEnsemble model makes a prediction based on an ensemble or combination of other models. Please find the screenshot of the best model trained with it's parameters.
+On all the session run days AutoML selected <b>VotingEnsemble</b> as the best model for the primary metric - <b>'Accuracy'</b>. This model makes a prediction based on an ensemble or combination of other models. Please find the screenshot of the best model <b>VotingEnsemble</b> trained with it's other data.
 
 ![Figure  - AutoML Run Completed - Best Model ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Run_Completed_Best_Model.png) 
 
