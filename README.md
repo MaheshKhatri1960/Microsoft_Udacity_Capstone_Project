@@ -124,7 +124,7 @@ AutoML Run - Best Model - Details 2
 
 *TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
 
-The AutoML model chose 'VotingEnsemble' as the best algorithm with an accuracy of '0.873'. As mentioned in the project improvements section below, 'Random Forest' algorithms can be studied further to improve the model. 
+The AutoML model chose 'VotingEnsemble' as the best algorithm with an accuracy of '0.873'. As mentioned in the project improvements section below, 'Random Forest' algorithms can be studied further to improve the model. Also, the various AutoML settings mentioned above can be experimented to further improve the performance.
 
 ## Phase 2 - Hyperparameter Tuning
 
