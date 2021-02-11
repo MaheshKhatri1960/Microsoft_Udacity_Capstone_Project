@@ -133,7 +133,7 @@ On all the session run days AutoML selected <b>VotingEnsemble</b> as the best mo
 
 <b><p align="center">Screenshot - AutoML Run - Best Model - Primary metric 'Accuracy' and other metrics</p></b>
 
-<b>What are the results you got with your automated ML model? 
+<b>What are the results you got with your automated ML model? </b>
   
 The AutoML model chose <b>'VotingEnsemble'</b> as the best algorithm with an accuracy of <b>'0.873'</b>. 
 
