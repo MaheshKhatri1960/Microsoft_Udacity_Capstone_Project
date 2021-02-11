@@ -68,9 +68,9 @@ Please find below an overview diagram of the AutoML run operations with all it's
 
 ![Figure  - Microsoft Udacity Azure ML Scholarship Capstone Project - Auto ML Settings & Configuration ](http://www.kaytek.co.in/images/msudp3/1B11_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Settings_Configuration.png)
 
-<b><p align="center">Code Snapshot - AutoML Run Settings & Configuration</p></b>
+<b><p align="center">Notebook - automl.ipynb - Code Snapshot - AutoML Run Settings & Configuration</p></b>
 
-These settings are further detailed as follows :
+These AutoML Run settings are further detailed as follows :
 
 <b>enable_early_stopping</b> - helps to avoid wastage of resources if the performance is not improving.
 
@@ -170,9 +170,10 @@ Please find below an overview diagram of the Hyperdrive run operations with all 
 
 ![Figure  - Overview of Hyperdrive Operations ](http://www.kaytek.co.in/images/msudp3/1B09_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Hyperdrive.png) 
 
-Hyperdrive Overview – ‘train.py’ Execution with multiple parameters 
+<b><p align="center">Diagram - Hyperdrive Overview – ‘train.py’ Execution with multiple values of hyperparameters as per specified policies</p></b>
 
-*TODO*: What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
+
+<b> What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search <b> 
 
 The algorithm chosen for this experiment was SKLearn's <a href="https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html">Logistic Regression</a>. I chose it because of it's simplicity with reasonable performance and familiarity during the earlier part of the course. I chose two hyperparameters **'--C'** - the inverse of the regularization rate used to counteract model overfitting & **'--max-iter'** - the number of iterations for the model to converge. The ranges used for the hyperparameter search were based on earlier experiences to ensure efficient hyperparameter tuning as a balance between getting good quality results without spending too much time & resources wherever possible.
 
@@ -201,25 +202,25 @@ Please find below screenshots of the `RunDetails` widget as well as a screenshot
 
 ![Figure  - Hyperdrive Execution RunWidget Details ](http://www.kaytek.co.in/images/msudp3/1B09_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Hyperdrive_RunDetails_Widget_Execution.png) 
 
-Hyperdrive RunWidget Details showing Execution details in progress - 1  
+<b><p align="center">Screenshot - Hyperdrive RunWidget Details showing Execution details in progress - 1</p></b>
 
 ![Figure  - Hyperdrive Execution RunWidget Details - 2 ](http://www.kaytek.co.in/images/msudp3/1B09_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Hyperdrive_RunDetails_Widget_Execution_2.png) 
 
-Hyperdrive RunWidget Details showing Execution details in progress - 2
+<b><p align="center">Screenshot - Hyperdrive RunWidget Details showing Execution details in progress - 2</p></b>
 
 ![Figure  - Hyperdrive Execution Completion ](http://www.kaytek.co.in/images/msudp3/1B09_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Hyperdrive_RunDetails_Widget_Execution_Completed.png) 
 
-Hyperdrive RunWidget Details showing Execution completed
+<b><p align="center">Screenshot - Hyperdrive RunWidget Details showing Execution completed</p></b>
 
 ### Results
 
 ![Figure  - Hyperdrive Run Completed - Best Model ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Hyperdrive_Run_Best_Model.png) 
 
-Hyperdrive Run Completed - Best Model 
+<b><p align="center">Screenshot - Hyperdrive Run Completed - Best Model</p></b>
 
-<b>Model results</b> - The model gave an accuracy of '0.833". 
+<b>Model results</b> - The best Hyperdrive model gave an accuracy of <b>'0.833'</b>. 
 
-<b> Model parameters </b> - The Hyperdrive parameters used were **'--C'** - the inverse of the regularization rate used to counteract model overfitting & **'--max-iter'** - the number of iterations for the model to converge. 
+<b> Model parameters </b> - The Hyperdrive best model parameters values were **'--C'** - the inverse of the regularization rate used to counteract model overfitting = <b>0.483</b> & **'--max-iter'** - the number of iterations for the model to converge = <b>100</b>. 
 
 <b> Methods for improvement</b> - Improvements could be done both by a wider choice of hyperparameter values as well as by choice of 'Random Forest' algorithm for Hyperdrive as mentioned in the Project Improvements section below.
 
@@ -229,29 +230,29 @@ Please find an overview diagram of the activities carried out for selection, reg
 
 ![Figure  - Microsoft Udacity Azure ML Scholarship Capstone Project - Phase 3 Overview](http://www.kaytek.co.in/images/msudp3/1B11_Mahesh_Khatri_MSUD_Azure_ML_Scholarship_Capstone_Project_Phase_3_Overview.png)
 
-Phase 3 - Overview of Model Selection, Registration, Deployment & Consumption
+<b><p align="center">Diagram - Phase 3 - Overview of Model Selection, Registration, Deployment & Consumption</p></b>
 
 <b> Best Model Selection </b> - As can be seen from the details above, the best AutoML Run algoritm 'VotingEnsemble' gave an accuracy of <b>0.873</b> which was higher than the Hyperdrive run accuracy of <b>'0.833'</b>. Hence, the AutoML run best model was chosen for deployment as can be seen below. 
 
-<b> Model Deployment </b>
+<b> Model Deployment Screenshots</b>
 
 ![Figure  - AutoML Run - Model Deployment - 1 ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Deployed_Model_1.png) 
 
-AutoML Run - Best Model - Deployment 1
+<b><p align="center">Screenshot - AutoML Run - Best Model - Deployment Details - 1</p></b>
 
 ![Figure  - AutoML Run - Model Deployment - 2 ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Deployed_Model_2.png) 
 
-AutoML Run - Best Model - Deployment 2
+<b><p align="center">Screenshot - AutoML Run - Best Model - Deployment Details - 2</p></b>
 
 ![Figure  - AutoML Run - Model Deployment - 3 ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Deployed_Model_3.png) 
 
-AutoML Run - Best Model - Deployment 3
+<b><p align="center">Screenshot - AutoML Run - Best Model - Deployment Details - 3</p></b>
 
 <b> Instructions on how to query the endpoint with a sample input </b> - Please refer to the code snapshot below from the notebook. 
 
 ![Figure  - Microsoft Udacity Azure ML Scholarship Capstone Project Model Query ](http://www.kaytek.co.in/images/msudp3/1B11_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Model_Query.png)
 
-<b>Best Model Deployment Query</b>
+<b><p align="center">Notebook - automl.ipynb - Code Snapshot - Best Model Deployment Query</p></b>
 
 As can be seen, a sample data input 1 in JSON format is sent to the deployed model. Additional code for the requests and response objects as shown below the JSON data is executed and the model then returns an appropriate response - whether 1 (for Yes) or 0 (For No) as the prediction for DEATH_EVENT. For the data point queried, the deployed web service gives a response as : prediction  "{\"result\": [1]}"
 
@@ -261,54 +262,59 @@ The 3 major Azure ML Resources used in the project - deployed web service, the A
 
 ![Figure  - Microsoft Udacity Azure ML Scholarship Capstone Project Overview  ](http://www.kaytek.co.in/images/msudp3/1B11_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Deployed_Model_Web_Service_Deletion.png)
 
-Deployed Model Web Service 'automl-deploy-2' Deletion
+<b><p align="center">Screenshot - Deployed Model Web Service 'automl-deploy-2' Deletion</p></b>
 
 ![Figure  - Microsoft Udacity Azure ML Scholarship Capstone Project Overview  ](http://www.kaytek.co.in/images/msudp3/1B11_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Compute_Cluster_Deletion.png)
 
-Compute Cluster 'MK-1B08-CC' Deletion
+<b><p align="center">Screenshot - Compute Cluster 'MK-1B08-CC' Deletion</p></b>
 
 ![Figure  - Microsoft Udacity Azure ML Scholarship Capstone Project Overview  ](http://www.kaytek.co.in/images/msudp3/1B11_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Notebook_Compute_Deletion.png)
 
-Notebooks Compute 'MK-1B08-NB-Compute' Deletion
-
+<b><p align="center">Screenshot - Notebooks Compute 'MK-1B08-NB-Compute' Deletion</p></b>
 
 ## Project Improvement Suggestions
-*TODO*: How to improve the project in the future
 
-1 - <b>Further Research Of Random Forest</b> - Over the last few days, I had conducted multiple runs of both Hyperdrive & AutoML for this project. While AutoML was consistently selecting 'VotingEnsemble' as the best algorithm with roughly the same accuracy performance, in the case of Hyperdrive, in case SKlearn's RandomForestClassifier is the algorithm used, it is possible to get better accuracy results. I did try out some runs of the same but due to paucity of time for the project submission, could not complete the same. I plan to do so in the future. Also, as per the dataset authors, Random Forest algorithms can give better predictions. Hence, this needs to be studied further.  We also need to find out as to how to improve the performance of the results of the 6 AutoML's RandomForest algorithms (Nos 2,3,4,7,11 & 13) used in the AutoML run as shown in the Notebook output below.
+<b>Question -  How to improve the project in the future ?</b>
+
+1 - <b>Further Research Of Random Forest Algorithms</b> - Over the last few days, I had conducted multiple runs of both Hyperdrive & AutoML for this project. While AutoML was consistently selecting 'VotingEnsemble' as the best algorithm with roughly the same accuracy performance, in the case of Hyperdrive, in case SKlearn's RandomForestClassifier is the algorithm used, it is possible to get slightly better accuracy results. I did try out some runs of the same but due to paucity of time for the project submission, could not complete the model deployment for the same. I plan to do so in the future. Also, as per the dataset authors, Random Forest algorithms can give better predictions. Hence, this needs to be studied further.  We also need to find out as to how to improve the performance of the results of the 6 AutoML's RandomForest algorithms (Nos 2,3,4,7,11 & 13) used in the AutoML run as shown in the Notebook output below.
 
 ![Figure  - AutoML Run - Executed Models - Random Forest ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Run_Random_Forests.png) 
 
-AutoML Run - List of Models Executed containing multiple Random Forest algorithms
+<b><p align="center">Notebook - automl.ipynb - Code Output - AutoML Run Execution containing multiple Random Forest algorithms</p></b>
 
-2 - <b> Dataset Cleaning </b> - Minimal data cleaning operations were done for this project. Some researchers have suggested that perhaps the 'time' column should not be used as a feature for prediction because it reflects the patient's followup period with the doctor and hence has no apparent impact on the accuracy of the prediction. However, the model is considering 'time' as an important feature in the best AutoML run model explanation as shown in the diagram below.
+2 - <b> Dataset Cleaning </b> - Minimal data cleaning operations were done for this project. Some researchers have suggested that perhaps the 'time' column should not be used as a feature for prediction because it reflects the patient's followup period with the doctor and hence has no apparent impact on the accuracy of the prediction. However, the model is perhaps inaccurately considering 'time' as an important feature in the best AutoML run model explanation as shown in the diagram below.
 
 ![Figure  - AutoML Run Completed - Best Model - Explanation](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Run_Best_Model_Explanation.png) 
 
-AutoML Run - Best Model - Explanation 
+<b><p align="center">Screenshot - AutoML Run - Best Model - Explanation showing importance of individual model features</p></b>
 
-As can be seen, 'time's is being shown as the most important predictor feature followed by 'serum_creatinine' & 'ejection fraction'. As has been mentioned in the dataset section above, the dataset creators believe that <b>"Machine learning can predict survival of patients with heart failure from serum creatinine and ejection fraction alone"</b>. With the exception of 'time', our AutoML run best model explanations seem to confirm the researcher's findings too in terms of the importance of 'serum_creatinine' & 'ejection fraction'. Hence, it is crucial to remove 'time' from the features sent to to the model and see the impact on both the accuracy metric as well as the relative importance of 'serum_creatinine' & 'ejection fraction'. 
+As can be seen, 'time's is being shown as the most important predictor feature followed by 'serum_creatinine' & 'ejection fraction'. As has been mentioned in the dataset section above, the dataset creators believe that "Machine learning can predict survival of patients with heart failure from <b>serum creatinine and ejection fraction alone"</b>. Hence, excluding 'time', our AutoML run best model explanations seem to confirm the researcher's findings too in terms of the importance of 'serum_creatinine' & 'ejection fraction'. Hence, it is crucial to remove 'time' from the features sent to to the model for future training and see the impact on both the accuracy metric as well as the impact on the relative importance of the 'serum_creatinine' & 'ejection fraction' features. 
 
-3 - <b>Exploring smaller dataset sizes </b> - It is remarkable that even with the current dataset size not being very large (only 299 records) as compared to other very large dataset sizes used in machine learning models, the returned accuracy figures are consistently in the high eighties. As future research beckons creation of increasingly smarter machine learning models with small data sizes, it would be insightful to try and further reduce the datasize to numbers less than 299 and see the impact on the metrics. Since data preparation is one of the most tedious and error prone tasks in machine learning, reducing dataset size without much impacting model prediction accuracy would be an important area of improvement. As mentioned in the AutoML section above, the AutoML Data Guardrails facility is very powerful and can be used to improve model accuracy via intelligent selection of smaller datasets.
+3 - <b>Exploring smaller dataset sizes </b> - It is remarkable that even with the current dataset small size (only 299 records) as compared to usually large dataset sizes used in machine learning models, the returned accuracy figures are consistently in the high eighties. As future research beckons creation of increasingly smarter machine learning models with small dataset sizes, it would be insightful to try and further reduce the datasize to numbers less than 299 and see the impact on the metrics. Since data preparation is one of the most tedious and error prone tasks in machine learning, reducing dataset size without much impacting model prediction accuracy would be an important area of improvement. As mentioned in the AutoML section above, the AutoML Data Guardrails facility is very powerful and can be used to improve model accuracy via intelligent selection of smaller datasets.
 
 ![Figure  - AutoML Run - Powerful Analysis of Input Dataset via Data Guardrails ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Run_Data_Guardrails.png) 
 
-AutoML Run - Powerful Analysis of Input Dataset via Data Guardrails
+<b><p align="center">Screenshot - AutoML Run - Powerful Analysis of Input Dataset via Data Guardrails</p></b>
 
-4 - <b> ONNX Standards Model Deployment </b> - Even though in the AutoML run configuration, the facility to create an ONNX compatible model was enabled, the same was not explored further. This is something that should be tried out in the future to help create an AI model which complies to a cross platform ONNX standard and helps increase the life & usage of the model across platforms. 
+4 - <b> ONNX Standards Model Deployment </b> - Even though in the AutoML run configuration, the setting to create an ONNX compatible model was enabled, the deployment of the same was not explored further due to paucity of time. This is something that should be tried out in the future to help create an AI model which complies to a cross platform ONNX standard and helps increase the life & usage of the model across platforms. 
 
 ## Screen Recording
 The <a href="https://youtu.be/LekDuPgowe0">Youtube link</a> is a screen recording of the project in action which demonstrates a working model, it's demonstration & sample request sent to the endpoint and its response.
 
 ## Standout Suggestions - The following was attempted by me :
 
-<b>Application Insights Emabled</b> - As can be seen from the screenshot below, for the deployed model, application insights can be enabled.
+<b>Application Insights Emabled</b> - As can be seen from the screenshot below, for the deployed model, application insights has be enabled which provides rich information on the operational performance of the web service which would be useful from a ML operations engineer's point of view. This has also been shown in the Phase 3 overview diagram above.
 
 ![Figure  - AutoML Run Completed - Best Model - Deployment App Insights Enabled - ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_Hyperdrive_Run_Best_Model_Deployment_Enabled_App_Insights.png) 
 
-2 - <b> Rich Information from Application Insights </b> - The two screenshots below show the deployed model's application insights by visiting the URL shown above.
+<b><p align="center">Screenshot - Application Insights Enabled in the deployed web service</p></b>
+
+<b> Rich Information from Application Insights </b> - The two screenshots below show the deployed model's application insights by visiting the URL shown above.
 
 ![Figure  - AutoML Run Completed - Best Model - Deployment App Insights - 1 ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Run_Best_Model_Deployment_App_Insights_1.png) 
 
+<b><p align="center">Screenshot - Deployed web service - Application Insights - 1 </p></b>
+
 ![Figure  - AutoML Run Completed - Best Model - Deployment App Insights - 2 ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Run_Best_Model_Deployment_App_Insights_2.png) 
 
+<b><p align="center">Screenshot - Deployed web service - Application Insights - 2 </p></b>
