@@ -252,9 +252,9 @@ Please refer to the code from the notebook.
 
 ![Figure  - Microsoft Udacity Azure ML Scholarship Capstone Project Model Query ](http://www.kaytek.co.in/images/msudp3/1B11_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Model_Query.png)
 
-Best Model Deployment Query
+<b>Best Model Deployment Query</b>
 
-As can be seen, a sample data input in JSON format is sent to the deployed model. Additional code as shown below the JSON data is executed and the model then returns an appropriate response - whether 1 (for Yes) or 0 (For No) as the prediction for DEATH_EVENT.
+As can be seen, a sample data input 1 in JSON format is sent to the deployed model. Additional code for the requests and response objects as shown below the JSON data is executed and the model then returns an appropriate response - whether 1 (for Yes) or 0 (For No) as the prediction for DEATH_EVENT. For the data point queried, the deployed web service gives a response as : prediction  "{\"result\": [1]}"
 
 ## Freeing Up Azure ML Resources
 
