@@ -64,11 +64,11 @@ Please find below an overview diagram of the AutoML run operations with all it's
 
 <b><p align="center">Diagram - AutoML Execution with multiple models & their hyperparameters resulting in the best model 'best_automl_model.pkl' file</p></b>
 
- <b>Diagram - Overview of the `automl` settings and configuration used</b>
+<b>Overview of the AutoML settings and configuration used</b>
 
 ![Figure  - Microsoft Udacity Azure ML Scholarship Capstone Project - Auto ML Settings & Configuration ](http://www.kaytek.co.in/images/msudp3/1B11_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Settings_Configuration.png)
 
-<b><p align="center">Code Snapshot - AutoML Run Settings & Configuration<</p></b>
+<b><p align="center">Code Snapshot - AutoML Run Settings & Configuration</p></b>
 
 These settings are further detailed as follows :
 
@@ -98,7 +98,8 @@ These settings are further detailed as follows :
 
 ![Figure  - AutoML Run - Powerful Analysis of Input Dataset via Data Guardrails ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Run_Data_Guardrails.png) 
 
-AutoML Run - Powerful Analysis of Input Dataset via Data Guardrails
+<b><p align="center">Screenshot - AutoML Run - Powerful Analysis of Input Dataset via Data Guardrails </p></b>
+
 
 ### AutoML Execution Run
 
