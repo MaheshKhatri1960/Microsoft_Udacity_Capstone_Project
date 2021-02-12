@@ -154,6 +154,14 @@ The AutoML model chose <b>'VotingEnsemble'</b> as the best algorithm with an acc
 
 The various AutoML settings mentioned above can be experimented with to further improve the performance. Also, as mentioned in the project improvements section below, <b>'Random Forest'</b> algorithms can be studied further to improve the performance. 
 
+<b> Performance Difference between AutoML's 1st model - <b>VotingEnsemble</b> and the remaining models. 
+  
+Please look at the performance returned by all the AutoML models below :
+
+![Figure  - AutoML Run - Executed Models - Random Forest ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Run_Random_Forests.png) 
+
+<b><p align="center">Notebook - automl.ipynb - Code Output - AutoML Run Execution showing the performance of all the modelsa</p></b>
+
 ## Phase 2 - Hyperparameter Tuning
 
 Phase 2 consists of two activities. First, independent execution of <a href="https://github.com/MaheshKhatri1960/Microsoft_Udacity_Scholarship_Capstone_Project/blob/main/train.py">train.py</a> and then the Hyperdrive run itself.
