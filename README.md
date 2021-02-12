@@ -284,7 +284,21 @@ For the model deployment, in addition to the notebook, two additional files are 
 2nd is the AutoML run environment file <a href="https://github.com/MaheshKhatri1960/Microsoft_Udacity_Scholarship_Capstone_Project_Submission/blob/main/myenv.yml
 ">myenv.yml</a> containing all the operating environment software dependencies. This file is automatically created as part of the AutoML run and needs to be downloaded for use. This environment file makes it very easy to deploy the model as say compared to Hyperdrive deployment. 
 
-The deployment code can be seen in the notebook. Deployment screenshots are shown below.
+The deployment code can be seen in the notebook. 
+
+![Figure  - Microsoft Udacity Azure ML Scholarship Capstone Project - Model Registration - 1 ](http://www.kaytek.co.in/images/msudp3/1B12_Registration_1.png)
+
+<b><p align="center">Diagram - Phase 3 - Model Registration - 1</p></b>
+
+
+![Figure  - Microsoft Udacity Azure ML Scholarship Capstone Project - Model Registration - 2 ](http://www.kaytek.co.in/images/msudp3/1B12_Registration_1.png)
+
+<b><p align="center">Diagram - Phase 3 - Model Registration - 2</p></b>
+
+
+
+
+Deployment screenshots are shown below.
 
 ![Figure  - AutoML Run - Model Deployment - 1 ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Deployed_Model_1.png) 
 
