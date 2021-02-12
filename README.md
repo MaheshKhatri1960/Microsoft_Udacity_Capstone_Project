@@ -156,11 +156,11 @@ The various AutoML settings mentioned above can be experimented with to further 
 
 <b> Performance Difference between AutoML's 1st model - <b>VotingEnsemble</b> and the remaining models. 
   
-Please look at the performance returned by all the AutoML models below :
+Please look at the performance returned by the top 3 AutoML models below :
 
-![Figure  - AutoML Run - Executed Models - Random Forest ](http://www.kaytek.co.in/images/msudp3/1B10_MK_MSUD_Azure_ML_Scholarship_Capstone_Project_AutoML_Run_Random_Forests.png) 
+![Figure  - AutoML Run - Top 3 Executed Models ](http://www.kaytek.co.in/images/msudp3/1B12_AutoML_Run_Top_3_Models.png) 
 
-<b><p align="center">Notebook - automl.ipynb - Code Output - AutoML Run Execution showing the performance of all the modelsa</p></b>
+<b><p align="center">Notebook - automl.ipynb - Code Output - AutoML Run Execution showing the performance of Top 3 models</p></b>
 
 ## Phase 2 - Hyperparameter Tuning
 
