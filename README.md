@@ -154,7 +154,7 @@ The AutoML model chose <b>'VotingEnsemble'</b> as the best algorithm with an acc
 
 The various AutoML settings mentioned above can be experimented with to further improve the performance. Also, as mentioned in the project improvements section below, <b>'Random Forest'</b> algorithms can be studied further to improve the performance. 
 
-<b> Performance Difference between AutoML's 1st model - <b>VotingEnsemble</b> and the remaining models. 
+Performance Difference between AutoML's 1st model - <b>VotingEnsemble</b> and the other top models. 
   
 Please look at the performance returned by the top 3 AutoML models below :
 
