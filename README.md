@@ -288,12 +288,12 @@ The deployment code can be seen in the notebook.
 
 ![Figure  - Microsoft Udacity Azure ML Scholarship Capstone Project - Model Registration - 1 ](http://www.kaytek.co.in/images/msudp3/1B12_Registration_1.png)
 
-<b><p align="center">Diagram - Phase 3 - Model Registration - 1</p></b>
+<b><p align="center">Diagram - Phase 3 - Model Registration Code</p></b>
 
 
-![Figure  - Microsoft Udacity Azure ML Scholarship Capstone Project - Model Registration - 2 ](http://www.kaytek.co.in/images/msudp3/1B12_Registration_1.png)
+![Figure  - Microsoft Udacity Azure ML Scholarship Capstone Project - Model Registration - 2 ](http://www.kaytek.co.in/images/msudp3/1B12_Registration_2.png)
 
-<b><p align="center">Diagram - Phase 3 - Model Registration - 2</p></b>
+<b><p align="center">Diagram - Phase 3 - Model Deployment Code</p></b>
 
 
 
