@@ -1,3 +1,5 @@
+# MK-1B12 - 12th Feb 2021 - Logging done in this program as per the Microsoft link on the next line 
+# MK-1B12 - 12th Feb 2021 - https://docs.microsoft.com/en-us/azure/machine-learning/how-to-track-experiments
 # MK-1A26
 # Reused from p1_train.py
 # MK-0K23 - train_C_dot_50_mi_1000_ts_03.py copied to train.py
