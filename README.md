@@ -288,13 +288,13 @@ The 1st file is the AutoML run environment file <a href="https://github.com/Mahe
 
 The 2nd file is the python program <a href="https://github.com/MaheshKhatri1960/Microsoft_Udacity_Scholarship_Capstone_Project_Submission/blob/main/score.py">'score.py'</a> mentioned earlier. The following steps are carried out :
 
-Step 1 - An 'env' object is created from the 'myenv.yml' file shown above.
+<b>Step 1</b> - An 'env' object is created from the 'myenv.yml' file shown above.
 
-Step 2 - An 'inference_config' object is created from 'score.py' as the entry script along with the 'env' object.
+<b>Step 2</b> - An 'inference_config' object is created from 'score.py' as the entry script along with the 'env' object.
 
-Step 3 - An 'aci_config' deployment configuration object is created with specified hardware configuration of number of CPU cores, memory size, name, application insights enablement, etc.
+<b>Step 3</b> - An 'aci_config' deployment configuration object is created with specified hardware configuration of number of CPU cores, memory size, name, application insights enablement, etc.
 
-Step 4 - Finally, the web service is deployed using the model, 'inference_config' object & 'aci_config' object referenced above. After a few minutes, the web service is deployed as can be seen in the code snapshot output below : 
+<b>Step 4</b> - Finally, the web service is deployed using the model, 'inference_config' object & 'aci_config' object referenced above. After a few minutes, the web service is deployed as can be seen in the code snapshot output below : 
 
 ![Figure  - Microsoft Udacity Azure ML Scholarship Capstone Project - Model Registration - 2 ](http://www.kaytek.co.in/images/msudp3/1B12_Registration_2.png)
 
