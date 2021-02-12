@@ -331,7 +331,7 @@ As can be seen, '<b>time</b> is being shown as the most important predictor feat
 4 - <b> ONNX Standards Model Deployment </b> - Even though in the AutoML run configuration, the setting to create an ONNX compatible model was enabled, the deployment of the same was not explored further due to paucity of time. This is something that should be tried out in the future to help create an AI model which complies to a cross platform ONNX standard and helps increase the life & usage of the model across platforms. 
 
 ## Screen Recording
-The <a href="https://youtu.be/LekDuPgowe0">Youtube link</a> is a screen recording of the project in action which demonstrates a working model, it's demonstration & sample request sent to the endpoint and its response.
+The <a href="https://www.youtube.com/watch?v=54gDLBEDybY">Youtube link</a> is a screen recording as a sequential presentation of the screenshots of the project in action. These demonstrate the dataset, a working model, it's features & codesnapshot of a sample request sent to the endpoint and its response. This presentation has been harmonized as per some of the key project diagrams shown above - Project Overview Diagram & Phase 3 Diagram.
 
 ## Standout Suggestions - The following was attempted :
 
@@ -351,6 +351,6 @@ The <a href="https://youtu.be/LekDuPgowe0">Youtube link</a> is a screen recordin
 
 <b><p align="center">Screenshot - Deployed web service - Application Insights - 2 </p></b>
 
-The <a href="https://youtu.be/LekDuPgowe0">Youtube link</a> screen recording also shows the Application Insights screen.
+The <a href="https://www.youtube.com/watch?v=54gDLBEDybY">Youtube link</a> screen recording also shows the Application Insights screen.
 
 <b> Thank you </b> - For your time and attention on this project.
