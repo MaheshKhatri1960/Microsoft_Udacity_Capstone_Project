@@ -277,19 +277,24 @@ The above diagram gives an overview of the code steps involved in model registra
 
 <b> Best Model Selection </b> - As can be seen from the details above, the best AutoML Run algoritm 'VotingEnsemble' gave an accuracy of <b>0.873</b> which was higher than the Hyperdrive run accuracy of <b>'0.833'</b>. Hence, the AutoML run best model was chosen for deployment as can be seen below. 
 
-For the model deployment, in addition to the notebook, two additional files are very important :
+For the model deployment, in addition to the notebook, two additional files are very important as can be seen in the notebook's deployment code below : 
 
-1st is the score.py mentioned earlier.
-
-2nd is the AutoML run environment file <a href="https://github.com/MaheshKhatri1960/Microsoft_Udacity_Scholarship_Capstone_Project_Submission/blob/main/myenv.yml
-">myenv.yml</a> containing all the operating environment software dependencies. This file is automatically created as part of the AutoML run and needs to be downloaded for use. This environment file makes it very easy to deploy the model as say compared to Hyperdrive deployment. 
-
-The deployment code can be seen in the notebook. 
+The 1st file is the AutoML run environment file <a href="https://github.com/MaheshKhatri1960/Microsoft_Udacity_Scholarship_Capstone_Project_Submission/blob/main/myenv.yml
+">myenv.yml</a> containing all the operating environment software dependencies. This file is automatically created as part of the AutoML run and needs to be downloaded for use. This environment file makes it very easy to deploy the model as say compared to Hyperdrive deployment. This can be seen in the screenshot below.
 
 ![Figure  - Microsoft Udacity Azure ML Scholarship Capstone Project - Model Registration - 1 ](http://www.kaytek.co.in/images/msudp3/1B12_Registration_1.png)
 
 <b><p align="center">Diagram - Phase 3 - Model Registration Code</p></b>
 
+The 2nd file is the python program <a href="https://github.com/MaheshKhatri1960/Microsoft_Udacity_Scholarship_Capstone_Project_Submission/blob/main/score.py">'score.py'</a> mentioned earlier. The following steps are carried out :
+
+Step 1 - An 'env' object is created from the 'myenv.yml' file shown above.
+
+Step 2 - An 'inference_config' object is created from 'score.py' as the entry script along with the 'env' object.
+
+Step 3 - An 'aci_config' deployment configuration object is created with specified hardware configuration of number of CPU cores, memory size, name, application insights enablement, etc.
+
+Step 4 - Finally, the web service is deployed using the model, 'inference_config' object & 'aci_config' object referenced above. After a few minutes, the web service is deployed as can be seen in the code snapshot output below : 
 
 ![Figure  - Microsoft Udacity Azure ML Scholarship Capstone Project - Model Registration - 2 ](http://www.kaytek.co.in/images/msudp3/1B12_Registration_2.png)
 
