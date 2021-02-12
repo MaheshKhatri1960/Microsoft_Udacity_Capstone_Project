@@ -162,6 +162,8 @@ Please look at the performance returned by the top 3 AutoML models below :
 
 <b><p align="center">Notebook - automl.ipynb - Code Output - AutoML Run Execution showing the performance of Top 3 models</p></b>
 
+The accuracy of about 87% returned by 'VotingEnsemble' is over 2 - 3 % higher than the accuracy of about 84 % returned by the next two models - the XgBoostClassifier.  In all the AutoML runs, 'VotingEnsemble' was consistently giving the top performance at the same level. 
+
 ## Phase 2 - Hyperparameter Tuning
 
 Phase 2 consists of two activities. First, independent execution of <a href="https://github.com/MaheshKhatri1960/Microsoft_Udacity_Scholarship_Capstone_Project/blob/main/train.py">train.py</a> and then the Hyperdrive run itself.
